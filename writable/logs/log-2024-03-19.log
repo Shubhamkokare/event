@@ -1,0 +1,38 @@
+CRITICAL - 2024-03-19 05:34:06 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 69.
+ 1 APPPATH\Controllers\Admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 69)
+ 2 APPPATH\Controllers\Admin.php(208): App\Controllers\Admin->header('Add Category')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addcategory()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 05:40:39 --> Undefined variable $categorylist
+in APPPATH\Views\category\addcategory.php on line 43.
+ 1 APPPATH\Views\category\addcategory.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorylist', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\category\\addcategory.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\category\\addcategory.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('category/addcategory', [], true)
+ 5 APPPATH\Controllers\Admin.php(235): view('category/addcategory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editcategory('9')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 05:40:53 --> Undefined variable $categorylist
+in APPPATH\Views\category\addcategory.php on line 43.
+ 1 APPPATH\Views\category\addcategory.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorylist', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\category\\addcategory.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\category\\addcategory.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('category/addcategory', [], true)
+ 5 APPPATH\Controllers\Admin.php(235): view('category/addcategory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editcategory('14')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 09:49:26 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 69.
+ 1 APPPATH\Controllers\Admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 69)
+ 2 APPPATH\Controllers\Admin.php(210): App\Controllers\Admin->header('Add Category')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addcategory()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

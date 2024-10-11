@@ -1,0 +1,402 @@
+CRITICAL - 2023-10-18 05:46:52 --> Invalid file: "parameters/addproduct.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parameters/addproduct.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/addproduct', [], true)
+ 3 APPPATH\Controllers\Admin.php(202): view('parameters/addproduct')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 05:47:20 --> Invalid file: "product/addproduct.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/addproduct.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product/addproduct', [], true)
+ 3 APPPATH\Controllers\Admin.php(202): view('product/addproduct')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 05:56:32 --> mysqli_sql_exception: Column 'min' cannot be null in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->addparameters()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 05:56:32 --> Column 'min' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `parameters` (`name`, `min`, `iddate`, `max`, `type`, `status`) VALUES (:name:, :min:, :iddate:, :max:, :type:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(101): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addparameters()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 05:57:32 --> mysqli_sql_exception: Column 'min' cannot be null in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->addparameters()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 05:57:32 --> Column 'min' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `parameters` (`name`, `min`, `iddate`, `max`, `type`, `status`) VALUES (:name:, :min:, :iddate:, :max:, :type:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(101): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addparameters()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 05:58:48 --> mysqli_sql_exception: Column 'min' cannot be null in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->addparameters()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 05:58:48 --> Column 'min' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `parameters` (`name`, `min`, `iddate`, `max`, `type`, `status`) VALUES (:name:, :min:, :iddate:, :max:, :type:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(101): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addparameters()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:00:06 --> Undefined property: App\Controllers\Admin::$productModel
+in APPPATH\Controllers\Admin.php on line 189.
+ 1 APPPATH\Controllers\Admin.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$productModel', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Controllers\\Admin.php', 189)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 06:01:17 --> mysqli_sql_exception: Table 'lmrproject.producrs' doesn't exist in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(189): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->productList()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 06:01:17 --> Table 'lmrproject.producrs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producrs` (`name`, `iddate`, `status`) VALUES (:name:, :iddate:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(189): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 06:01:26 --> mysqli_sql_exception: Table 'lmrproject.producrs' doesn't exist in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(189): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->productList()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 06:01:26 --> Table 'lmrproject.producrs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producrs` (`name`, `iddate`, `status`) VALUES (:name:, :iddate:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(189): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:02:07 --> Invalid file: "addproduct.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('addproduct.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('addproduct', [], true)
+ 3 APPPATH\Controllers\Admin.php(191): view('addproduct')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:14:46 --> Cannot redeclare App\Controllers\Admin::productlist()
+in APPPATH\Controllers\Admin.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 06:15:52 --> Undefined variable $list
+in APPPATH\Views\product\productlist.php on line 13.
+ 1 APPPATH\Views\product\productlist.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\product\\productlist.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\product\\productlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product/productlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(209): view('product/productlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productlist1()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 07:09:55 --> mysqli_sql_exception: Table 'lmrproject.use' doesn't exist in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(85): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->userList()
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-18 07:09:55 --> Table 'lmrproject.use' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `use`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(85): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->userList()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:54:21 --> Cannot redeclare App\Controllers\Admin::production()
+in APPPATH\Controllers\Admin.php on line 277.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 07:55:03 --> Cannot declare class App\Models\parameterModel, because the name is already in use
+in APPPATH\Models\productionModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-10-18 08:21:41 --> mysqli_sql_exception: Table 'lmrproject.production' doesn't exist in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(272): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->productionlist()
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-18 08:21:41 --> Table 'lmrproject.production' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `production`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(272): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionlist()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:24:26 --> syntax error, unexpected token "as", expecting variable or "{" or "$"
+in APPPATH\Views\production\productionlist.php on line 32.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productionlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(273): view('production/productionlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionlist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:26:46 --> Undefined variable $productlist
+in APPPATH\Views\production\productionlist.php on line 32.
+ 1 APPPATH\Views\production\productionlist.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productlist', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\production\\productionlist.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\production\\productionlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productionlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(273): view('production/productionlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:25:13 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:25:15 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:25:15 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 09:28:19 --> mysqli_sql_exception: Unknown column 'entrydate' in 'field list' in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(303): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 09:28:19 --> Unknown column 'entrydate' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `production` (`iddate`, `entrydate`, `product`, `close`, `new`, `actual`) VALUES (:iddate:, :entrydate:, :product:, :close:, :new:, :actual:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(303): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 09:29:28 --> mysqli_sql_exception: Unknown column 'entrydate' in 'field list' in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(303): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 09:29:28 --> Unknown column 'entrydate' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `production` (`iddate`, `entrydate`, `product`, `close`, `new`, `actual`) VALUES (:iddate:, :entrydate:, :product:, :close:, :new:, :actual:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(303): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 09:31:02 --> mysqli_sql_exception: Unknown column 'product' in 'field list' in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(303): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 09:31:02 --> Unknown column 'product' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `production` (`iddate`, `entrydate`, `product`, `close`, `new`, `actual`) VALUES (:iddate:, :entrydate:, :product:, :close:, :new:, :actual:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(303): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 09:32:28 --> mysqli_sql_exception: Unknown column 'close' in 'field list' in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(303): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 09:32:28 --> Unknown column 'close' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `production` (`iddate`, `entrydate`, `product`, `close`, `new`, `actual`) VALUES (:iddate:, :entrydate:, :product:, :close:, :new:, :actual:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(303): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:34:51 --> Undefined variable $param_name
+in APPPATH\Controllers\Admin.php on line 296.
+ 1 APPPATH\Controllers\Admin.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $param_name', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Controllers\\Admin.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:52:53 --> Undefined constant "VALUE"
+in APPPATH\Views\inpection\addinpection.php on line 31.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/addinpection', [], true)
+ 4 APPPATH\Controllers\Admin.php(311): view('inpection/addinpection', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpectionlist()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

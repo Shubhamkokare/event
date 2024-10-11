@@ -1,0 +1,101 @@
+CRITICAL - 2023-10-06 05:14:28 --> App\Controllers\Admin::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Admin.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 05:20:38 --> syntax error, unexpected single-quoted string "login", expecting ";"
+in APPPATH\Controllers\Admin.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\livedarshan\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:20:54 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in C:\xampp\new xampp\htdocs\livedarshan\app\Config\Routes.php on line 10
+in SYSTEMPATH\Router\RouteCollection.php on line 991.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->match('darshan', 'Home::darshan')
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\new xampp\\htdocs\\livedarshan\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:29:52 --> mysqli_sql_exception: Column 'descr' cannot be null in C:\xampp\new xampp\htdocs\livedarshan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\livedarshan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\new xampp\htdocs\livedarshan\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\livedarshan\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\livedarshan\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\livedarshan\app\Controllers\Home.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(919): App\Controllers\Home->Darshan_Data_Insert()
+#9 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\livedarshan\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-06 07:29:52 --> Column 'descr' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `darshan` (`descr`, `image`, `url`, `status`) VALUES (:descr:, :image:, :url:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->Darshan_Data_Insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:31:33 --> mysqli_sql_exception: Column 'url' cannot be null in C:\xampp\new xampp\htdocs\livedarshan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\livedarshan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\new xampp\htdocs\livedarshan\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\livedarshan\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\livedarshan\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\livedarshan\app\Controllers\Home.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(919): App\Controllers\Home->darshan()
+#9 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\livedarshan\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-06 07:31:33 --> Column 'url' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `darshan` (`descr`, `image`, `url`, `status`) VALUES (:descr:, :image:, :url:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(64): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->darshan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:32:15 --> mysqli_sql_exception: Column 'url' cannot be null in C:\xampp\new xampp\htdocs\livedarshan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\livedarshan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\new xampp\htdocs\livedarshan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\new xampp\htdocs\livedarshan\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\livedarshan\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\livedarshan\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\livedarshan\app\Controllers\Home.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(919): App\Controllers\Home->darshan()
+#9 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\new xampp\htdocs\livedarshan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\livedarshan\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-06 07:32:15 --> Column 'url' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `darshan` (`descr`, `image`, `url`, `status`) VALUES (:descr:, :image:, :url:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(64): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->darshan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

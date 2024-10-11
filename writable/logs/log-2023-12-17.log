@@ -1,0 +1,507 @@
+CRITICAL - 2023-12-17 10:23:54 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-12-17 10:23:55 --> Uncaught Error: Class 'Locale' not found in C:\xampp\htdocs\b2b\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Helpers\number_helper.php(55): format_number(2, 2, NULL, Array)
+#1 C:\xampp\htdocs\b2b\system\Debug\BaseExceptionHandler.php(145): number_to_size(2, 2)
+#2 C:\xampp\htdocs\b2b\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(2097152)
+#3 C:\xampp\htdocs\b2b\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\b2b\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\b2b\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\b2b\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgnit
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\b2b\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\b2b\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\b2b\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-17 10:24:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-12-17 10:24:22 --> Uncaught Error: Class 'Locale' not found in C:\xampp\htdocs\b2b\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Helpers\number_helper.php(55): format_number(2, 2, NULL, Array)
+#1 C:\xampp\htdocs\b2b\system\Debug\BaseExceptionHandler.php(145): number_to_size(2, 2)
+#2 C:\xampp\htdocs\b2b\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(2097152)
+#3 C:\xampp\htdocs\b2b\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\b2b\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\b2b\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\b2b\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgnit
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\b2b\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\b2b\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\b2b\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-12-17 09:25:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\app\Models\usersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\app\Controllers\Home.php(26): App\Models\usersModel->isvalidate('admin@admin.com', 'password')
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Home->login()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\app\Models\usersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\app\Controllers\Home.php(26): App\Models\usersModel->isvalidate('admin@admin.com', 'password')
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:25:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `userName` = :userName:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\usersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(26): App\Models\usersModel->isvalidate('admin@admin.com', 'password')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:25:13 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\app\Models\usersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\app\Controllers\Home.php(26): App\Models\usersModel->isvalidate('1', '1')
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Home->login()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\app\Models\usersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\app\Controllers\Home.php(26): App\Models\usersModel->isvalidate('1', '1')
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:25:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `userName` = :userName:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\usersModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(26): App\Models\usersModel->isvalidate('1', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:27:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(560): App\Models\auto_fill_rateMoled->selectQuery()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->excel()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(27): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(560): App\Models\auto_fill_rateMoled->selectQuery()
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->excel()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:27:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `auto_fill_rate`', [], false)
+ 3 APPPATH\Models\auto_fill_rateMoled.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(560): App\Models\auto_fill_rateMoled->selectQuery()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->excel()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:28:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(560): App\Models\auto_fill_rateMoled->selectQuery()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->excel()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(27): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(560): App\Models\auto_fill_rateMoled->selectQuery()
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->excel()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:28:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `auto_fill_rate`', [], false)
+ 3 APPPATH\Models\auto_fill_rateMoled.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(560): App\Models\auto_fill_rateMoled->selectQuery()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->excel()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 09:34:50 --> Call to a member function getRateFor() on null
+in APPPATH\Controllers\Admin.php on line 714.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:35:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:35:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `auto_fill_rate`
+WHERE `COMPANY_CODE` = :COMPANY_CODE:
+AND `Destinations` = :Destinations:', [...], false)
+ 3 APPPATH\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:35:25 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:35:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `auto_fill_rate`
+WHERE `COMPANY_CODE` = :COMPANY_CODE:
+AND `Destinations` = :Destinations:', [...], false)
+ 3 APPPATH\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:36:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:36:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `auto_fill_rate`
+WHERE `COMPANY_CODE` = :COMPANY_CODE:
+AND `Destinations` = :Destinations:', [...], false)
+ 3 APPPATH\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:37:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:37:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `auto_fill_rate`
+WHERE `COMPANY_CODE` = :COMPANY_CODE:
+AND `Destinations` = :Destinations:', [...], false)
+ 3 APPPATH\Models\auto_fill_rateMoled.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:38:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(95): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\app\Models\auto_fill_rateMoled.php(95): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#3 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+#4 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-12-17 09:38:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\auto_fill_rateMoled.php(95): CodeIgniter\Database\BaseConnection->query('SELECT * FROM auto_fill_rate WHERE COMPANY_CODE=\'2309574\' AND Destinations=\'SILLOD\'  ')
+ 3 APPPATH\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:38:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'b2b', 3307, '', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\b2b\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\b2b\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(401): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->total_tableList()
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\b2b\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\b2b\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(401): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->total_tableList()
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-17 09:38:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `total_table`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Admin.php(401): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->total_tableList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 09:39:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH\Models\auto_fill_rateMoled.php on line 96.
+ 1 APPPATH\Controllers\Admin.php(714): App\Models\auto_fill_rateMoled->getRateFor('2309574', 'SILLOD')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 09:44:04 --> Call to undefined method App\Models\auto_fill_rateMoled::getComForTransporter
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin.php(715): CodeIgniter\Model->__call('getComForTransporter', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 09:44:18 --> mysqli_sql_exception: Unknown column 'COMPANY_CODE' in 'where clause' in C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\b2b\app\Controllers\Admin.php(715): App\Models\transportMoled->getComForTransporter('HTC JAVED')
+#5 C:\xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 09:44:18 --> Unknown column 'COMPANY_CODE' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE COMPANY_CODE=\'HTC JAVED\' ')
+ 2 APPPATH\Controllers\Admin.php(715): App\Models\transportMoled->getComForTransporter('HTC JAVED')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,176 @@
+CRITICAL - 2023-12-15 05:09:48 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 05:09:51 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 05:09:53 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 05:09:57 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 05:11:59 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 05:12:13 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 05:13:53 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 05:14:00 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:12:54 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:15:25 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:15:26 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:15:26 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 06:15:33 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 07:21:28 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\excel\uplode_form.php on line 3.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('excel/uplode_form', [], true)
+ 4 APPPATH\Controllers\Admin.php(549): view('excel/uplode_form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->excel()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 07:23:00 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 07:23:02 --> Declaration of App\Models\auto_fill_rateMoled::find($location, $distance) must be compatible with CodeIgniter\BaseModel::find($id = null)
+in APPPATH\Models\auto_fill_rateMoled.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-15 07:23:49 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\excel\uplode_form.php on line 3.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('excel/uplode_form', [], true)
+ 4 APPPATH\Controllers\Admin.php(549): view('excel/uplode_form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->excel()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 07:43:23 --> Undefined constant "App\Controllers\r"
+in APPPATH\Controllers\Admin.php on line 573.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 07:46:57 --> Undefined variable $i
+in APPPATH\Controllers\Admin.php on line 577.
+ 1 APPPATH\Controllers\Admin.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 577)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 07:50:38 --> syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\Admin.php on line 628.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 07:50:44 --> Undefined variable $row
+in APPPATH\Controllers\Admin.php on line 575.
+ 1 APPPATH\Controllers\Admin.php(575): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 575)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 07:53:48 --> Undefined array key 0
+in APPPATH\Controllers\Admin.php on line 580.
+ 1 APPPATH\Controllers\Admin.php(580): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 580)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 07:54:13 --> Undefined array key 1
+in APPPATH\Controllers\Admin.php on line 580.
+ 1 APPPATH\Controllers\Admin.php(580): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 580)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 08:03:30 --> Call to undefined method App\Models\auto_fill_rateMoled::group_by
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin.php(282): CodeIgniter\Model->__call('group_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport_entry()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 08:04:57 --> Call to undefined method App\Models\auto_fill_rateMoled::group_by
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin.php(282): CodeIgniter\Model->__call('group_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport_entry()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 08:06:01 --> Cannot use object of type stdClass as array
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 38.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 4 APPPATH\Controllers\Admin.php(284): view('transport_entry/addtransport_entry', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport_entry()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 08:06:16 --> Undefined array key "id"
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 38.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(284): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport_entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 08:06:18 --> Undefined array key "id"
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 38.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(284): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport_entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 08:06:32 --> Undefined variable $auto
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 47.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $auto', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(284): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport_entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 08:07:14 --> Undefined array key "Correct_km"
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 48.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Correct_km"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(285): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport_entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,341 @@
+CRITICAL - 2023-12-21 05:55:49 --> Undefined property: App\Controllers\Admin::$auto_fill_rate
+in APPPATH\Controllers\Admin.php on line 505.
+ 1 APPPATH\Controllers\Admin.php(505): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$auto_fill_rate', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 505)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->auto_fill_rateList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 05:56:19 --> Undefined variable $total_table
+in APPPATH\Views\total_table\total_tableList.php on line 82.
+ 1 APPPATH\Views\total_table\total_tableList.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_table', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\total_table\\total_tableList.php', 82)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\total_table\\total_tableList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('total_table/total_tablelist', [], true)
+ 5 APPPATH\Controllers\Admin.php(506): view('total_table/total_tablelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->auto_fill_rateList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 05:57:08 --> Undefined variable $total_table
+in APPPATH\Views\total_table\total_tableList.php on line 82.
+ 1 APPPATH\Views\total_table\total_tableList.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_table', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\total_table\\total_tableList.php', 82)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\total_table\\total_tableList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('total_table/total_tablelist', [], true)
+ 5 APPPATH\Controllers\Admin.php(506): view('total_table/total_tablelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->auto_fill_rateList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 05:57:25 --> Undefined variable $total_table
+in APPPATH\Views\total_table\total_tableList.php on line 82.
+ 1 APPPATH\Views\total_table\total_tableList.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_table', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\total_table\\total_tableList.php', 82)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\total_table\\total_tableList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('total_table/total_tablelist', [], true)
+ 5 APPPATH\Controllers\Admin.php(506): view('total_table/total_tablelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->auto_fill_rateList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 05:58:46 --> Undefined array key "company"
+in APPPATH\Views\auto_fill_rate\auto_fill_rateList.php on line 85.
+ 1 APPPATH\Views\auto_fill_rate\auto_fill_rateList.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\auto_fill_rate\\auto_fill_rateList.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\auto_fill_rate\\auto_fill_rateList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auto_fill_rate/auto_fill_rateList', [], true)
+ 5 APPPATH\Controllers\Admin.php(506): view('auto_fill_rate/auto_fill_rateList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->auto_fill_rateList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 09:09:20 --> Undefined array key 7
+in APPPATH\Controllers\Admin.php on line 863.
+ 1 APPPATH\Controllers\Admin.php(863): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 863)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 09:14:10 --> Undefined array key 7
+in APPPATH\Controllers\Admin.php on line 863.
+ 1 APPPATH\Controllers\Admin.php(863): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 863)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 09:14:43 --> Undefined array key 7
+in APPPATH\Controllers\Admin.php on line 863.
+ 1 APPPATH\Controllers\Admin.php(863): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 863)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 09:24:07 --> Call to undefined function App\Controllers\day()
+in APPPATH\Controllers\Admin.php on line 867.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 09:33:16 --> Class "App\Models\pumpMoled" not found
+in APPPATH\Controllers\Admin.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 09:34:34 --> mysqli_sql_exception: Unknown column 'tokan' in 'field list' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(888): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-21 09:34:34 --> Unknown column 'tokan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pump` (`iddate`, `SR_NO`, `DIESEL_LTR`, `COMPANY`, `BILL_NO`, `user`, `tokan`) VALUES (:iddate:, :SR_NO:, :DIESEL_LTR:, :COMPANY:, :BILL_NO:, :user:, :tokan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(888): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 09:55:39 --> Undefined array key 3
+in APPPATH\Controllers\Admin.php on line 681.
+ 1 APPPATH\Controllers\Admin.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 681)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 10:18:00 --> Undefined array key "name"
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 24.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(300): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport_entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 10:18:39 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 10:18:39 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'SSL\' ')
+ 2 APPPATH\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 10:21:01 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 10:21:01 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'SSL\' ')
+ 2 APPPATH\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 10:22:09 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 10:22:09 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'SSL\' ')
+ 2 APPPATH\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 10:22:55 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 10:22:55 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'SSL\' ')
+ 2 APPPATH\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 10:23:39 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 10:23:39 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'SSL\' ')
+ 2 APPPATH\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 10:26:29 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 10:26:29 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'SSL\' ')
+ 2 APPPATH\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 10:26:38 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 10:26:38 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'SSL\' ')
+ 2 APPPATH\Controllers\Admin.php(692): App\Models\transportMoled->getComForTransporter('SSL')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 10:58:18 --> Undefined array key "vehicle_no"
+in APPPATH\Controllers\Admin.php on line 655.
+ 1 APPPATH\Controllers\Admin.php(655): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vehicle_no"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 655)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 10:58:37 --> Undefined array key "destinations"
+in APPPATH\Controllers\Admin.php on line 656.
+ 1 APPPATH\Controllers\Admin.php(656): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "destinations"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 656)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 10:58:54 --> strpos(): Argument #1 ($haystack) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 658.
+ 1 APPPATH\Controllers\Admin.php(658): strpos([...], '%')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 11:00:34 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(665): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-21 11:00:34 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transport` (`iddate`, `loding_point`, `c_code`, `date`, `lr_no`, `di_no`, `vehicle_no`, `party_name`, `destinations`, `qty`, `transporter_name`, `freight_amt`, `commission`, `comission_f`, `token`) VALUES (:iddate:, :loding_point:, :c_code:, :date:, :lr_no:, :di_no:, :vehicle_no:, :party_name:, :destinations:, :qty:, :transporter_name:, :freight_amt:, :commission:, :comission_f:, :token:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(665): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 11:02:12 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(665): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-21 11:02:12 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transport` (`iddate`, `loding_point`, `c_code`, `date`, `lr_no`, `di_no`, `vehicle_no`, `party_name`, `destinations`, `qty`, `transporter_name`, `freight_amt`, `commission`, `comission_f`, `token`) VALUES (:iddate:, :loding_point:, :c_code:, :date:, :lr_no:, :di_no:, :vehicle_no:, :party_name:, :destinations:, :qty:, :transporter_name:, :freight_amt:, :commission:, :comission_f:, :token:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(665): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

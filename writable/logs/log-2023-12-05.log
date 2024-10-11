@@ -1,0 +1,8 @@
+CRITICAL - 2023-12-05 08:13:13 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 67.
+ 1 APPPATH\Controllers\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 67)
+ 2 APPPATH\Controllers\Admin.php(378): App\Controllers\Admin->header('Production List')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionlist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

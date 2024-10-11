@@ -1,0 +1,778 @@
+CRITICAL - 2024-02-06 05:13:13 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 54)
+ 2 APPPATH\Controllers\Admin.php(374): App\Controllers\Admin->header('BOOK')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->book()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 05:13:17 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 54)
+ 2 APPPATH\Controllers\Admin.php(374): App\Controllers\Admin->header('BOOK')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->book()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 05:39:36 --> Call to a member function get() on string
+in APPPATH\Models\bookModel.php on line 27.
+ 1 APPPATH\Controllers\Admin.php(381): App\Models\bookModel->findcustomer()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 05:41:04 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\bookModel.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\event\\app\\Models\\bookModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\bookModel')
+ 3 APPPATH\Controllers\Admin.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\bookModel')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 05:42:41 --> mysqli_sql_exception: Table 'event.customer' doesn't exist in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(381): App\Models\bookModel->findcustomer()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 05:42:41 --> Table 'event.customer' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM customer WHERE id = booking.customer_id) AS customer_name
+FROM `booking`
+GROUP BY `customer_id`', [], false)
+ 2 APPPATH\Models\bookModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(381): App\Models\bookModel->findcustomer()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 05:43:19 --> Undefined variable $categorylist
+in APPPATH\Views\book\bookinglist.php on line 17.
+ 1 APPPATH\Views\book\bookinglist.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorylist', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookinglist', [], true)
+ 5 APPPATH\Controllers\Admin.php(382): view('book/bookinglist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 06:05:27 --> Undefined variable $bookinglist
+in APPPATH\Views\book\bookingorderlist.php on line 17.
+ 1 APPPATH\Views\book\bookingorderlist.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookinglist', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookingorderlist.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookingorderlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookingorderlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(387): view('book/bookingorderlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 06:06:28 --> Undefined array key "customer_name"
+in APPPATH\Views\book\bookingorderlist.php on line 20.
+ 1 APPPATH\Views\book\bookingorderlist.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_name"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookingorderlist.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookingorderlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookingorderlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(387): view('book/bookingorderlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 06:45:58 --> Call to undefined function App\Controllers\to()
+in APPPATH\Controllers\Admin.php on line 293.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->client()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 07:09:54 --> Undefined array key "customer_name"
+in APPPATH\Views\book\bookinglist.php on line 23.
+ 1 APPPATH\Views\book\bookinglist.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_name"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookinglist', [], true)
+ 5 APPPATH\Controllers\Admin.php(392): view('book/bookinglist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 07:12:08 --> mysqli_sql_exception: Unknown column 'accounting.customer_id' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\accountModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(391): App\Models\accountModel->findcustname()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 07:12:08 --> Unknown column 'accounting.customer_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM client WHERE id = accounting.customer_id) AS customer_name
+FROM `booking`', [], false)
+ 2 APPPATH\Models\accountModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(391): App\Models\accountModel->findcustname()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 07:12:41 --> mysqli_sql_exception: Unknown column 'accounting.customer_id' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\accountModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(391): App\Models\accountModel->findcustname()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 07:12:41 --> Unknown column 'accounting.customer_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM client WHERE id = accounting.customer_id) AS customer_name
+FROM `booking`', [], false)
+ 2 APPPATH\Models\accountModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(391): App\Models\accountModel->findcustname()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 07:46:48 --> Declaration of App\Models\bookModel::update($id) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\bookModel.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-06 08:03:33 --> syntax error, unexpected token ")"
+in APPPATH\Views\book\update.php on line 4.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 3 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:04:49 --> Attempt to read property "id" on array
+in APPPATH\Views\book\update.php on line 4.
+ 1 APPPATH\Views\book\update.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:04:51 --> Attempt to read property "id" on array
+in APPPATH\Views\book\update.php on line 4.
+ 1 APPPATH\Views\book\update.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:25:03 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:27:41 --> Attempt to read property "id" on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 APPPATH\Views\book\update.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:28:24 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 26.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:29:36 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 43.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:30:29 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:30:43 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:32:26 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:32:28 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:32:32 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:33:26 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('19')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:33:48 --> Cannot access offset of type string on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 4 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('18')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:40:31 --> Attempt to read property "id" on string
+in APPPATH\Views\book\update.php on line 25.
+ 1 APPPATH\Views\book\update.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('18')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:41:00 --> Undefined variable $itam
+in APPPATH\Views\book\update.php on line 26.
+ 1 APPPATH\Views\book\update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itam', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('18')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:42:30 --> Undefined property: stdClass::$product_name
+in APPPATH\Views\book\update.php on line 26.
+ 1 APPPATH\Views\book\update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_name', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('18')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:43:13 --> Undefined variable $itam
+in APPPATH\Views\book\update.php on line 45.
+ 1 APPPATH\Views\book\update.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itam', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('18')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 09:44:32 --> mysqli_sql_exception: Column 'remark' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(357): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->book()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-06 09:44:32 --> Column 'remark' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`client_id`, `iddate`, `address`, `remark`, `func_id`, `by_userid`) VALUES (:client_id:, :iddate:, :address:, :remark:, :func_id:, :by_userid:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(357): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->book()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 09:46:40 --> Undefined property: App\Controllers\Admin::$booking_detailsModel
+in APPPATH\Controllers\Admin.php on line 385.
+ 1 APPPATH\Controllers\Admin.php(385): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$booking_detailsModel', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 385)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->book()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 09:56:28 --> Undefined array key "date"
+in APPPATH\Views\book\bookinglist.php on line 21.
+ 1 APPPATH\Views\book\bookinglist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookinglist', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('book/bookinglist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 09:58:37 --> mysqli_sql_exception: Unknown column 'booking.name' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(418): App\Models\bookModel->findtotal('1')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('1')
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 09:58:37 --> Unknown column 'booking.name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM service WHERE id = booking.name) AS product_name
+FROM `booking`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 2 APPPATH\Models\bookModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(418): App\Models\bookModel->findtotal('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:08:42 --> Undefined array key "func_date"
+in APPPATH\Views\book\bookinglist.php on line 21.
+ 1 APPPATH\Views\book\bookinglist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "func_date"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookinglist', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('book/bookinglist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:09:09 --> mysqli_sql_exception: Unknown column 'booking.name' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(418): App\Models\bookModel->findtotal('1')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('1')
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 10:09:09 --> Unknown column 'booking.name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM service WHERE id = booking.name) AS product_name
+FROM `booking`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 2 APPPATH\Models\bookModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(418): App\Models\bookModel->findtotal('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:09:14 --> mysqli_sql_exception: Unknown column 'booking.name' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(418): App\Models\bookModel->findtotal('2')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('2')
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 10:09:14 --> Unknown column 'booking.name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM service WHERE id = booking.name) AS product_name
+FROM `booking`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 2 APPPATH\Models\bookModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(418): App\Models\bookModel->findtotal('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:09:21 --> mysqli_sql_exception: Unknown column 'booking.name' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(418): App\Models\bookModel->findtotal('2')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('2')
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 10:09:21 --> Unknown column 'booking.name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM service WHERE id = booking.name) AS product_name
+FROM `booking`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 2 APPPATH\Models\bookModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(418): App\Models\bookModel->findtotal('2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:13:04 --> Undefined array key "cost"
+in APPPATH\Views\book\bookingorderlist.php on line 23.
+ 1 APPPATH\Views\book\bookingorderlist.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cost"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookingorderlist.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookingorderlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookingorderlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(419): view('book/bookingorderlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->customerorderlist('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:13:28 --> mysqli_sql_exception: Unknown column 'booking.name' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(436): App\Models\bookModel->getSingle('1')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 10:13:28 --> Unknown column 'booking.name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM service WHERE id = booking.name) AS product_name
+FROM `booking`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\bookModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(436): App\Models\bookModel->getSingle('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:15:44 --> mysqli_sql_exception: Unknown column 'booking.name' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(436): App\Models\bookModel->getSingle('1')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 10:15:44 --> Unknown column 'booking.name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM service WHERE id = booking.name) AS product_name
+FROM `booking`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\bookModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(436): App\Models\bookModel->getSingle('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:17:03 --> mysqli_sql_exception: Unknown column 'booking.name' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(436): App\Models\bookModel->getSingle('1')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 10:17:03 --> Unknown column 'booking.name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM service WHERE id = booking.name) AS product_name
+FROM `booking`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\bookModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(436): App\Models\bookModel->getSingle('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:17:11 --> mysqli_sql_exception: Unknown column 'booking.name' in 'where clause' in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(436): App\Models\bookModel->getSingle('1')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 10:17:11 --> Unknown column 'booking.name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM service WHERE id = booking.name) AS product_name
+FROM `booking`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\bookModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(436): App\Models\bookModel->getSingle('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:17:29 --> Undefined property: stdClass::$product_name
+in APPPATH\Views\book\update.php on line 29.
+ 1 APPPATH\Views\book\update.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_name', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(437): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:18:37 --> Undefined property: stdClass::$cost
+in APPPATH\Views\book\update.php on line 32.
+ 1 APPPATH\Views\book\update.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cost', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(437): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:38:25 --> Undefined array key "date"
+in APPPATH\Views\book\bookinglist.php on line 21.
+ 1 APPPATH\Views\book\bookinglist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookinglist', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('book/bookinglist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:39:16 --> Undefined array key "bill_no"
+in APPPATH\Views\book\bookinglist.php on line 23.
+ 1 APPPATH\Views\book\bookinglist.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bill_no"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookinglist', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('book/bookinglist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:40:21 --> Undefined array key "bill_no"
+in APPPATH\Views\book\bookinglist.php on line 23.
+ 1 APPPATH\Views\book\bookinglist.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bill_no"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookinglist', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('book/bookinglist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:46:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, (SELECT name FROM category WHERE id = booking.func_id) AS function
+FROM `b...' at line 1 in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-06 10:46:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, (SELECT name FROM category WHERE id = booking.func_id) AS function
+FROM `b...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT name FROM client WHERE id = booking.client_id) AS customer_name, *, (SELECT name FROM category WHERE id = booking.func_id) AS function
+FROM `booking`', [], false)
+ 2 APPPATH\Models\bookModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:49:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'booking' at line 1 in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('booking', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('booking')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('booking')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(62): CodeIgniter\Database\BaseConnection->query('booking')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-06 10:49:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'booking' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\bookModel.php(62): CodeIgniter\Database\BaseConnection->query('booking')
+ 2 APPPATH\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:49:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'booking' at line 1 in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('booking', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('booking')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('booking')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(62): CodeIgniter\Database\BaseConnection->query('booking')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-06 10:49:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'booking' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\bookModel.php(62): CodeIgniter\Database\BaseConnection->query('booking')
+ 2 APPPATH\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:49:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'booking' at line 1 in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('booking', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('booking')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('booking')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(62): CodeIgniter\Database\BaseConnection->query('booking')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-06 10:49:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'booking' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\bookModel.php(62): CodeIgniter\Database\BaseConnection->query('booking')
+ 2 APPPATH\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-06 10:50:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'booking' at line 1 in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('booking', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('booking')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('booking')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\bookModel.php(62): CodeIgniter\Database\BaseConnection->query('booking')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-06 10:50:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'booking' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\bookModel.php(62): CodeIgniter\Database\BaseConnection->query('booking')
+ 2 APPPATH\Controllers\Admin.php(413): App\Models\bookModel->findcustname()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:50:36 --> Undefined array key "function"
+in APPPATH\Views\book\bookinglist.php on line 28.
+ 1 APPPATH\Views\book\bookinglist.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "function"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bookinglist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bookinglist', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('book/bookinglist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bokinglist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 15:11:04 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 60.
+ 1 APPPATH\Controllers\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 60)
+ 2 APPPATH\Controllers\Admin.php(410): App\Controllers\Admin->header('BOOK')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->book()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

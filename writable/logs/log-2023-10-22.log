@@ -1,0 +1,114 @@
+CRITICAL - 2023-10-22 07:32:01 --> Class 'App\Models\inspectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:32:38 --> Class 'App\Models\inspectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:20 --> Class 'App\Controllers\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:34 --> Class 'App\Controllers\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:38 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:40 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:40 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:40 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:41 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:41 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:41 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:42 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:43 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 07:33:50 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 08:35:25 --> Class 'App\Models\inpsectionModel' not found
+in APPPATH/Controllers/Admin.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 08:40:56 --> syntax error, unexpected '2' (T_LNUMBER), expecting ';' or ','
+in APPPATH/Views/inpection/addinpection.php on line 30.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('inpection/addinpection', [], true)
+ 3 APPPATH/Controllers/Admin.php(312): view('inpection/addinpection', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Admin->inpectionlist()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 09:19:41 --> The route for "ds" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ds')
+ 2 SYSTEMPATH/Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Admin.php(28): redirect('ds')
+ 4 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 09:55:56 --> syntax error, unexpected 'filter' (T_STRING), expecting ')'
+in APPPATH/Config/Routes.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

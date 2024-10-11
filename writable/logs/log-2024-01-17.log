@@ -1,0 +1,19 @@
+CRITICAL - 2024-01-17 07:09:22 --> Undefined variable $category
+in APPPATH\Views\product\addproduct.php on line 29.
+ 1 APPPATH\Views\product\addproduct.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\product\\addproduct.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\product\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product/addproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(112): view('product/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editproduct('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 08:48:47 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Controllers\\Admin.php', 50)
+ 2 APPPATH\Controllers\Admin.php(113): App\Controllers\Admin->header('Update Product ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editproduct('3')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,14 @@
+CRITICAL - 2023-10-25 00:01:06 --> Argument 2 passed to view() must be of the type array, null given, called in /home/u531738166/domains/webap.fun/public_html/lmr/app/Controllers/Home.php on line 17
+in SYSTEMPATH/Common.php on line 1176.
+ 1 APPPATH/Controllers/Home.php(17): view('include/header', null)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 09:23:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin.php on line 25.
+ 1 APPPATH\Controllers\Admin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

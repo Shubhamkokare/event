@@ -1,0 +1,35 @@
+CRITICAL - 2023-09-15 05:36:39 --> Undefined property: App\Controllers\Log::$input
+in APPPATH\Controllers\Log.php on line 33.
+ 1 APPPATH\Controllers\Log.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Log::$input', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Controllers\\Log.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 05:59:02 --> Undefined property: App\Controllers\Log::$input
+in APPPATH\Controllers\Log.php on line 33.
+ 1 APPPATH\Controllers\Log.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Log::$input', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Controllers\\Log.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 06:57:12 --> Undefined property: App\Controllers\Log::$input
+in APPPATH\Controllers\Log.php on line 33.
+ 1 APPPATH\Controllers\Log.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Log::$input', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Controllers\\Log.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 07:01:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\loginmodel.php on line 10.
+ 1 APPPATH\Controllers\Log.php(39): App\Models\loginmodel->isvalidate('sdfs', 'sdfs')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 07:02:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\loginmodel.php on line 10.
+ 1 APPPATH\Controllers\Log.php(39): App\Models\loginmodel->isvalidate('sdfs', 'sdfs')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

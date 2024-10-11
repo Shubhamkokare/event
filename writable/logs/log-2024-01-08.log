@@ -1,0 +1,205 @@
+CRITICAL - 2024-01-08 03:14:54 --> Call to undefined method App\Models\transport_entryModel::getSingle
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin.php(412): CodeIgniter\Model->__call('getSingle', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport_entry('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 03:16:02 --> Undefined property: stdClass::$location
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 66.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$location', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport_entry('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 03:17:17 --> Undefined property: stdClass::$location
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 66.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$location', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport_entry('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 03:17:33 --> Undefined property: stdClass::$delvery_id
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 66.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$delvery_id', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport_entry('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 03:21:48 --> Undefined property: stdClass::$lr_id
+in APPPATH\Views\transport_entry\addtransport_entry.php on line 70.
+ 1 APPPATH\Views\transport_entry\addtransport_entry.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$lr_id', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php', 70)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\addtransport_entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/addtransport_entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('transport_entry/addtransport_entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport_entry('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 03:24:02 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 392.
+ 1 APPPATH\Controllers\Admin.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 392)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport_entry('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 07:26:46 --> Undefined property: stdClass::$fixe
+in APPPATH\Views\transport\addtransport.php on line 22.
+ 1 APPPATH\Views\transport\addtransport.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fixe', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport/addtransport', [], true)
+ 5 APPPATH\Controllers\Admin.php(282): view('transport/addtransport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 07:27:53 --> Undefined property: stdClass::$percentage
+in APPPATH\Views\transport\addtransport.php on line 23.
+ 1 APPPATH\Views\transport\addtransport.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$percentage', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport/addtransport', [], true)
+ 5 APPPATH\Controllers\Admin.php(282): view('transport/addtransport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 07:28:53 --> Undefined property: stdClass::$date
+in APPPATH\Views\transport\addtransport.php on line 30.
+ 1 APPPATH\Views\transport\addtransport.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport/addtransport', [], true)
+ 5 APPPATH\Controllers\Admin.php(282): view('transport/addtransport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 07:32:24 --> Undefined property: stdClass::$bank_detail
+in APPPATH\Views\transport\addtransport.php on line 30.
+ 1 APPPATH\Views\transport\addtransport.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$bank_detail', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport/addtransport', [], true)
+ 5 APPPATH\Controllers\Admin.php(283): view('transport/addtransport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 07:33:11 --> Undefined property: stdClass::$bank_detail
+in APPPATH\Views\transport\addtransport.php on line 30.
+ 1 APPPATH\Views\transport\addtransport.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$bank_detail', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport/addtransport', [], true)
+ 5 APPPATH\Controllers\Admin.php(283): view('transport/addtransport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 07:33:34 --> Undefined property: stdClass::$bank_detail
+in APPPATH\Views\transport\addtransport.php on line 30.
+ 1 APPPATH\Views\transport\addtransport.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$bank_detail', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport\\addtransport.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport/addtransport', [], true)
+ 5 APPPATH\Controllers\Admin.php(283): view('transport/addtransport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 07:35:26 --> Attempt to read property "userName" on null
+in APPPATH\Controllers\Admin.php on line 262.
+ 1 APPPATH\Controllers\Admin.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_transport('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 14:37:35 --> Undefined array key "loding_point"
+in APPPATH\Views\vehicles_list\running_list.php on line 26.
+ 1 APPPATH\Views\vehicles_list\running_list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "loding_point"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vehicles_list/running_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(1255): view('vehicles_list/running_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 14:50:54 --> Undefined property: stdClass::$total
+in APPPATH\Views\driver\salary.php on line 37.
+ 1 APPPATH\Views\driver\salary.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$total', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\driver\\salary.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\driver\\salary.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('driver/salary', [], true)
+ 5 APPPATH\Controllers\Admin.php(1591): view('driver/salary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editsalary('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-08 16:07:18 --> mysqli_sql_exception: Unknown column 'totalemi' in 'field list' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(1619): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->loan()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-08 16:07:18 --> Unknown column 'totalemi' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `loan` (`iddate`, `vehicle`, `totalemi`, `emidate`, `startdate`, `amount`, `user`) VALUES (:iddate:, :vehicle:, :totalemi:, :emidate:, :startdate:, :amount:, :user:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(1619): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->loan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-08 16:10:47 --> mysqli_sql_exception: Unknown column 'amount' in 'field list' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(1619): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->loan()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-08 16:10:47 --> Unknown column 'amount' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `loan` (`iddate`, `vehicle`, `totalemi`, `emidate`, `startdate`, `amount`, `user`) VALUES (:iddate:, :vehicle:, :totalemi:, :emidate:, :startdate:, :amount:, :user:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(1619): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->loan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

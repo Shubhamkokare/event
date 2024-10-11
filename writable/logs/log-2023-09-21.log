@@ -1,0 +1,704 @@
+ERROR - 2023-09-21 06:15:22 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 06:15:22 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 06:16:24 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 06:16:24 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 06:23:02 --> mysqli_sql_exception: Column 'user_name' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 06:23:02 --> Column 'user_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 06:26:10 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 06:26:10 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 06:40:54 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 06:40:54 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 06:56:31 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 06:56:31 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:11:32 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:11:32 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:43:55 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:43:55 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:44:13 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:44:13 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:45:09 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:45:09 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:45:26 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:45:26 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:46:04 --> mysqli_sql_exception: Column 'password' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:46:04 --> Column 'password' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:46:14 --> mysqli_sql_exception: Column 'password' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:46:14 --> Column 'password' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:46:37 --> mysqli_sql_exception: Column 'password' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:46:37 --> Column 'password' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 07:48:53 --> mysqli_sql_exception: Column 'password' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->savedata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 07:48:53 --> Column 'password' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `signup` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(59): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 08:02:14 --> mysqli_sql_exception: Table 'webcms.product' doesn't exist in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->addpro()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 08:02:14 --> Table 'webcms.product' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(70): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->addpro()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 08:43:25 --> mysqli_sql_exception: Column 'name' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->addpro()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 08:43:25 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`name`, `mrp`, `unit`) VALUES (:name:, :mrp:, :unit:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(70): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->addpro()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 08:56:10 --> mysqli_sql_exception: Table 'webcms.cust' doesn't exist in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->addcust()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 08:56:10 --> Table 'webcms.cust' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cust` (`username`, `email`, `password`, `addres`) VALUES (:username:, :email:, :password:, :addres:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->addcust()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 08:56:57 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->addcust()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 08:56:57 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`username`, `email`, `password`, `addres`) VALUES (:username:, :email:, :password:, :addres:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->addcust()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 08:57:46 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->addcust()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 08:57:46 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`username`, `email`, `password`, `addres`) VALUES (:username:, :email:, :password:, :addres:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->addcust()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 08:59:13 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->addcust()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 08:59:13 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`username`, `email`, `password`, `addres`) VALUES (:username:, :email:, :password:, :addres:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->addcust()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 08:59:47 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->addcust()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 08:59:47 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`username`, `email`, `password`, `addres`) VALUES (:username:, :email:, :password:, :addres:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(77): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->addcust()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:13:46 --> Invalid file: "custlist.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('custlist.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 3 APPPATH\Controllers\Log.php(85): view('custlist')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:14:22 --> Undefined variable $table
+in APPPATH\Views\prolist.php on line 48.
+ 1 APPPATH\Views\prolist.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prolist', [], true)
+ 5 APPPATH\Controllers\Log.php(81): view('prolist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:16:48 --> Undefined variable $table
+in APPPATH\Views\prolist.php on line 48.
+ 1 APPPATH\Views\prolist.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prolist', [], true)
+ 5 APPPATH\Controllers\Log.php(81): view('prolist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:17:33 --> Undefined variable $tables
+in APPPATH\Views\prolist.php on line 48.
+ 1 APPPATH\Views\prolist.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prolist', [], true)
+ 5 APPPATH\Controllers\Log.php(81): view('prolist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:31:33 --> Undefined variable $tables
+in APPPATH\Views\prolist.php on line 48.
+ 1 APPPATH\Views\prolist.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prolist', [], true)
+ 5 APPPATH\Controllers\Log.php(81): view('prolist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:42:38 --> Undefined variable $tables
+in APPPATH\Views\custlist.php on line 49.
+ 1 APPPATH\Views\custlist.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 5 APPPATH\Controllers\Log.php(85): view('custlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:42:56 --> Undefined variable $tables
+in APPPATH\Views\prolist.php on line 48.
+ 1 APPPATH\Views\prolist.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prolist', [], true)
+ 5 APPPATH\Controllers\Log.php(81): view('prolist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:49:18 --> Undefined variable $tables
+in APPPATH\Views\prolist.php on line 48.
+ 1 APPPATH\Views\prolist.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prolist', [], true)
+ 5 APPPATH\Controllers\Log.php(81): view('prolist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:49:26 --> Undefined variable $tables
+in APPPATH\Views\custlist.php on line 49.
+ 1 APPPATH\Views\custlist.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 5 APPPATH\Controllers\Log.php(85): view('custlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:50:58 --> Undefined variable $tables
+in APPPATH\Views\custlist.php on line 49.
+ 1 APPPATH\Views\custlist.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 5 APPPATH\Controllers\Log.php(85): view('custlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:51:10 --> Undefined variable $tables
+in APPPATH\Views\custlist.php on line 49.
+ 1 APPPATH\Views\custlist.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 5 APPPATH\Controllers\Log.php(85): view('custlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:53:08 --> syntax error, unexpected token ")"
+in APPPATH\Views\custlist.php on line 49.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 3 APPPATH\Controllers\Log.php(85): view('custlist')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:53:51 --> Undefined variable $tables
+in APPPATH\Views\custlist.php on line 49.
+ 1 APPPATH\Views\custlist.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 5 APPPATH\Controllers\Log.php(85): view('custlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:57:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Log.php(87): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:57:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Log.php(87): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:58:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Log.php(87): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:58:48 --> Undefined variable $tables
+in APPPATH\Views\custlist.php on line 49.
+ 1 APPPATH\Views\custlist.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 5 APPPATH\Controllers\Log.php(88): view('custlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 09:59:48 --> Undefined variable $tables
+in APPPATH\Views\custlist.php on line 49.
+ 1 APPPATH\Views\custlist.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\custlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('custlist', [], true)
+ 5 APPPATH\Controllers\Log.php(88): view('custlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->custlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 10:02:53 --> Undefined variable $tables
+in APPPATH\Views\prolist.php on line 48.
+ 1 APPPATH\Views\prolist.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Views\\prolist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('prolist', [], true)
+ 5 APPPATH\Controllers\Log.php(82): view('prolist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 10:05:14 --> Class "App\Controllers\proModel" not found
+in APPPATH\Controllers\Log.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 10:12:18 --> Class "App\Controllers\proModel" not found
+in APPPATH\Controllers\Log.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 10:19:53 --> Class "App\Controllers\proModel" not found
+in APPPATH\Controllers\Log.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 10:21:57 --> Class "App\Controllers\proModel" not found
+in APPPATH\Controllers\Log.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 10:23:53 --> Class "App\Controllers\proModel" not found
+in APPPATH\Controllers\Log.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 10:24:15 --> Class "App\Controllers\proModel" not found
+in APPPATH\Controllers\Log.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 10:30:04 --> mysqli_sql_exception: Duplicate entry 'shubhamkokare51@gmai' for key 'PRIMARY' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(78): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->addcust()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 10:30:04 --> Duplicate entry 'shubhamkokare51@gmai' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer` (`username`, `email`, `password`, `addres`) VALUES (:username:, :email:, :password:, :addres:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(78): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->addcust()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 10:30:42 --> Class "App\Controllers\proModel" not found
+in APPPATH\Controllers\Log.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->prolist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

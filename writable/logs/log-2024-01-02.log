@@ -1,0 +1,256 @@
+CRITICAL - 2024-01-02 05:42:25 --> Undefined variable $list
+in APPPATH\Views\location\addlocation.php on line 16.
+ 1 APPPATH\Views\location\addlocation.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\location\\addlocation.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\location\\addlocation.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('location/addlocation', [], true)
+ 5 APPPATH\Controllers\Admin.php(1321): view('location/addlocation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_location('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 05:43:00 --> Undefined variable $list
+in APPPATH\Views\location\addlocation.php on line 16.
+ 1 APPPATH\Views\location\addlocation.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\location\\addlocation.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\location\\addlocation.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('location/addlocation', [], true)
+ 5 APPPATH\Controllers\Admin.php(1321): view('location/addlocation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_location('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 05:43:57 --> Undefined property: stdClass::$number
+in APPPATH\Views\location\addlocation.php on line 24.
+ 1 APPPATH\Views\location\addlocation.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$number', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\location\\addlocation.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\location\\addlocation.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('location/addlocation', [], true)
+ 5 APPPATH\Controllers\Admin.php(1323): view('location/addlocation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_location('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 05:43:59 --> Undefined property: stdClass::$number
+in APPPATH\Views\location\addlocation.php on line 24.
+ 1 APPPATH\Views\location\addlocation.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$number', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\location\\addlocation.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\location\\addlocation.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('location/addlocation', [], true)
+ 5 APPPATH\Controllers\Admin.php(1323): view('location/addlocation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_location('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-02 06:09:03 --> mysqli_sql_exception: Unknown column 'rto_exp' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(61): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->index()
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-02 06:09:03 --> Unknown column 'rto_exp' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `location`
+WHERE `rto_exp` >= :rto_exp:
+AND `rto_exp` <= :rto_exp.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Controllers\Admin.php(61): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-02 06:09:05 --> mysqli_sql_exception: Unknown column 'rto_exp' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(61): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->index()
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-02 06:09:05 --> Unknown column 'rto_exp' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `location`
+WHERE `rto_exp` >= :rto_exp:
+AND `rto_exp` <= :rto_exp.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Controllers\Admin.php(61): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 06:19:29 --> Attempt to read property "userName" on null
+in APPPATH\Controllers\Admin.php on line 101.
+ 1 APPPATH\Controllers\Admin.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addvehicle()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 06:19:53 --> Attempt to read property "userName" on null
+in APPPATH\Controllers\Admin.php on line 101.
+ 1 APPPATH\Controllers\Admin.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addvehicle()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 06:19:58 --> Attempt to read property "userName" on null
+in APPPATH\Controllers\Admin.php on line 101.
+ 1 APPPATH\Controllers\Admin.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addvehicle()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-02 07:54:06 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(1223): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->factory_parking_vehicles()
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-02 07:54:06 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transport_entry`
+WHERE `status` = :status:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(1223): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->factory_parking_vehicles()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 10:07:06 --> Undefined variable $loadingpoints
+in APPPATH\Views\pump\addpump.php on line 35.
+ 1 APPPATH\Views\pump\addpump.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loadingpoints', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\pump\\addpump.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\pump\\addpump.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pump/addpump', [], true)
+ 5 APPPATH\Controllers\Admin.php(1401): view('pump/addpump', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-02 10:12:56 --> mysqli_sql_exception: Column 'date' cannot be null in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(1390): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-02 10:12:56 --> Column 'date' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transport_entry` (`iddate`, `date`) VALUES (:iddate:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(1390): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-02 10:13:38 --> mysqli_sql_exception: Column 'date' cannot be null in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(1390): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-02 10:13:38 --> Column 'date' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transport_entry` (`iddate`, `date`) VALUES (:iddate:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(1390): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-02 10:17:03 --> mysqli_sql_exception: Column 'party' cannot be null in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(1390): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-02 10:17:03 --> Column 'party' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pump_entry` (`vehicle`, `iddate`, `indentno`, `disel_ltr`, `lr`, `amount`, `rate`, `company`, `bill_no`, `party`, `date`, `user`) VALUES (:vehicle:, :iddate:, :indentno:, :disel_ltr:, :lr:, :amount:, :rate:, :company:, :bill_no:, :party:, :date:, :user:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(1390): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-02 10:17:51 --> mysqli_sql_exception: Column 'party' cannot be null in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(1390): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-02 10:17:51 --> Column 'party' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pump_entry` (`vehicle`, `iddate`, `indentno`, `disel_ltr`, `lr`, `amount`, `rate`, `company`, `bill_no`, `party`, `date`, `user`) VALUES (:vehicle:, :iddate:, :indentno:, :disel_ltr:, :lr:, :amount:, :rate:, :company:, :bill_no:, :party:, :date:, :user:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(1390): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addpump()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,49 @@
+CRITICAL - 2024-01-12 04:50:43 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 42.
+ 1 APPPATH\Controllers\Admin.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Controllers\\Admin.php', 42)
+ 2 APPPATH\Controllers\Admin.php(279): App\Controllers\Admin->header('Orders')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->showorders()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 04:51:22 --> Undefined variable $driver
+in APPPATH\Views\product\addproduct.php on line 29.
+ 1 APPPATH\Views\product\addproduct.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $driver', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\product\\addproduct.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\product\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product/addproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('product/addproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 04:53:50 --> Call to undefined function App\Controllers\findAll()
+in APPPATH\Controllers\Admin.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 05:37:13 --> include(db.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\fetch_product.php on line 9.
+ 1 APPPATH\Controllers\fetch_product.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(db.php): Failed to open stream: No such file or directory', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Controllers\\fetch_product.php', 9)
+ 2 APPPATH\Controllers\fetch_product.php(9): include()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\fetch_product->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fetch_product))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 05:37:15 --> include(db.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\fetch_product.php on line 9.
+ 1 APPPATH\Controllers\fetch_product.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(db.php): Failed to open stream: No such file or directory', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Controllers\\fetch_product.php', 9)
+ 2 APPPATH\Controllers\fetch_product.php(9): include()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\fetch_product->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fetch_product))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 05:38:26 --> include(db.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\fetch_product.php on line 9.
+ 1 APPPATH\Controllers\fetch_product.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(db.php): Failed to open stream: No such file or directory', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Controllers\\fetch_product.php', 9)
+ 2 APPPATH\Controllers\fetch_product.php(9): include()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\fetch_product->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fetch_product))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

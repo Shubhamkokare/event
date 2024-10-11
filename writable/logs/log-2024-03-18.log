@@ -1,0 +1,8 @@
+CRITICAL - 2024-03-18 11:43:28 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Admin.php(101): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\new xampp\\htdocs\\event\\public/uploads/service/', '1710762208_88c79c797f92b9e47d0d')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

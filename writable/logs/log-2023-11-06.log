@@ -1,0 +1,32 @@
+CRITICAL - 2023-11-06 05:57:55 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 65.
+ 1 APPPATH\Controllers\Admin.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 65)
+ 2 APPPATH\Controllers\Admin.php(318): App\Controllers\Admin->header('Production List')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionlist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 05:58:07 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 65.
+ 1 APPPATH\Controllers\Admin.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 65)
+ 2 APPPATH\Controllers\Admin.php(247): App\Controllers\Admin->header('Add Product ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->add_product()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 07:07:29 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 65.
+ 1 APPPATH\Controllers\Admin.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 65)
+ 2 APPPATH\Controllers\Admin.php(462): App\Controllers\Admin->header('Master')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->master()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 07:07:34 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 65.
+ 1 APPPATH\Controllers\Admin.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 65)
+ 2 APPPATH\Controllers\Admin.php(462): App\Controllers\Admin->header('Master')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->master()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

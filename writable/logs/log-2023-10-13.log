@@ -1,0 +1,139 @@
+CRITICAL - 2023-10-13 02:40:08 --> Undefined array key "user_name"
+in APPPATH\Views\invectrylist.php on line 26.
+ 1 APPPATH\Views\invectrylist.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\invectrylist.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\invectrylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('invectrylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(356): view('invectrylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->invectrylist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 05:31:54 --> Undefined array key "user_name"
+in APPPATH\Views\invectrylist.php on line 26.
+ 1 APPPATH\Views\invectrylist.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\invectrylist.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\invectrylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('invectrylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(356): view('invectrylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->invectrylist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 05:34:33 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 384.
+ 1 APPPATH\Controllers\Admin.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 384)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inventory()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 05:36:51 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\Admin.php on line 384.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 05:38:48 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\Admin.php on line 382.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 06:34:47 --> Undefined variable $entryid
+in APPPATH\Controllers\Admin.php on line 477.
+ 1 APPPATH\Controllers\Admin.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $entryid', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 477)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inventory_detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 06:34:59 --> Undefined variable $entryid
+in APPPATH\Controllers\Admin.php on line 477.
+ 1 APPPATH\Controllers\Admin.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $entryid', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 477)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inventory_detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 06:35:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\edite.php on line 3.
+ 1 APPPATH\Views\edite.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edite', [], true)
+ 5 APPPATH\Controllers\Admin.php(156): view('edite', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edite('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 06:49:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\edite.php on line 3.
+ 1 APPPATH\Views\edite.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edite', [], true)
+ 5 APPPATH\Controllers\Admin.php(156): view('edite', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edite('5')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:00:11 --> Cannot redeclare App\Controllers\Admin::inventory_edite()
+in APPPATH\Controllers\Admin.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 07:00:17 --> Cannot redeclare App\Controllers\Admin::inventory_edite()
+in APPPATH\Controllers\Admin.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 07:00:19 --> Cannot redeclare App\Controllers\Admin::inventory_edite()
+in APPPATH\Controllers\Admin.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 07:00:20 --> Cannot redeclare App\Controllers\Admin::inventory_edite()
+in APPPATH\Controllers\Admin.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 07:00:21 --> Cannot redeclare App\Controllers\Admin::inventory_edite()
+in APPPATH\Controllers\Admin.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 07:00:22 --> Cannot redeclare App\Controllers\Admin::inventory_edite()
+in APPPATH\Controllers\Admin.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 07:00:26 --> Cannot redeclare App\Controllers\Admin::inventory_edite()
+in APPPATH\Controllers\Admin.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 07:13:29 --> Cannot redeclare App\Controllers\Admin::inventory_list()
+in APPPATH\Controllers\Admin.php on line 500.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 07:19:55 --> Undefined array key "inventory_id"
+in APPPATH\Views\invectrylist.php on line 33.
+ 1 APPPATH\Views\invectrylist.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "inventory_id"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\invectrylist.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\invectrylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('invectrylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(358): view('invectrylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->invectrylist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:20:23 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\inventorydetail.php on line 20.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inventorydetail', [], true)
+ 4 APPPATH\Controllers\Admin.php(437): view('inventorydetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inventory_report('3')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:47:31 --> Undefined variable $parainventory_countm_count
+in APPPATH\Views\dashboard.php on line 50.
+ 1 APPPATH\Views\dashboard.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parainventory_countm_count', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\dashboard.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(60): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

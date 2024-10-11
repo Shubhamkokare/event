@@ -1,0 +1,716 @@
+ERROR - 2024-03-12 05:51:14 --> mysqli_sql_exception: Column 'client_id' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(444): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->book()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-12 05:51:14 --> Column 'client_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`client_id`, `iddate`, `func_date`, `address`, `remark`, `func_id`, `by_userid`) VALUES (:client_id:, :iddate:, :func_date:, :address:, :remark:, :func_id:, :by_userid:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(444): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->book()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 06:26:35 --> Too few arguments to function App\Models\categoryModel::getCategory(), 0 passed in C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php on line 228 and exactly 1 expected
+in APPPATH\Models\categoryModel.php on line 22.
+ 1 APPPATH\Controllers\Admin.php(228): App\Models\categoryModel->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->categorylist()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 06:27:00 --> Unsupported operand types: string * string
+in APPPATH\Models\categoryModel.php on line 26.
+ 1 APPPATH\Controllers\Admin.php(228): App\Models\categoryModel->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->categorylist()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:27:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `category`' at line 2 in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (sele...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (sele...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (sele...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (sele...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\categoryModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(228): App\Models\categoryModel->getCategory()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->categorylist()
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-12 06:27:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `category`' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (select name FROM user WHERE id=category.user)as user FROM category
+FROM `category`', [], false)
+ 2 APPPATH\Models\categoryModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(228): App\Models\categoryModel->getCategory()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->categorylist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:28:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `category`' at line 2 in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (sele...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (sele...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (sele...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (sele...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\categoryModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(228): App\Models\categoryModel->getCategory()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->categorylist()
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-12 06:28:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `category`' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (select name FROM user WHERE id=category.user)as user FROM category
+FROM `category`', [], false)
+ 2 APPPATH\Models\categoryModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(228): App\Models\categoryModel->getCategory()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->categorylist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:28:38 --> mysqli_sql_exception: Table 'event.user' doesn't exist in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (sele...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (sele...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (sele...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (sele...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\app\Models\categoryModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(228): App\Models\categoryModel->getCategory()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->categorylist()
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-12 06:28:38 --> Table 'event.user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, (select name FROM user WHERE id=category.user)as user
+FROM `category`', [], false)
+ 2 APPPATH\Models\categoryModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(228): App\Models\categoryModel->getCategory()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->categorylist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:39:55 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(479): App\Models\serviceModel->getSub_service('31')
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->sub_services('31', '47')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:39:55 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT img_name FROM image WHERE service_id = service.id) as img FROM service WHERE sub_ser=31')
+ 2 APPPATH\Controllers\Admin.php(479): App\Models\serviceModel->getSub_service('31')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->sub_services('31', '47')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:40:32 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:40:32 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT img_name FROM image WHERE service_id=service.id) as img,(SELECT name FROM users WHERE id=service.user) as user FROM service ')
+ 2 APPPATH\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:40:35 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:40:35 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT img_name FROM image WHERE service_id=service.id) as img,(SELECT name FROM users WHERE id=service.user) as user FROM service ')
+ 2 APPPATH\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:40:37 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:40:37 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT img_name FROM image WHERE service_id=service.id) as img,(SELECT name FROM users WHERE id=service.user) as user FROM service ')
+ 2 APPPATH\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:40:45 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:40:45 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT img_name FROM image WHERE service_id=service.id) as img,(SELECT name FROM users WHERE id=service.user) as user FROM service ')
+ 2 APPPATH\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:41:44 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:41:44 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT img_name FROM image WHERE service_id=service.id) as img,(SELECT name FROM users WHERE id=service.user) as user FROM service ')
+ 2 APPPATH\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:41:45 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:41:45 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT img_name FROM image WHERE service_id=service.id) as img,(SELECT name FROM users WHERE id=service.user) as user FROM service ')
+ 2 APPPATH\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:41:55 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:41:55 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT img_name FROM image WHERE service_id=service.id) as img,(SELECT name FROM users WHERE id=service.user) as user FROM service ')
+ 2 APPPATH\Controllers\Admin.php(165): App\Models\serviceModel->findimage()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->servicelist()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:45:12 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(41): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(479): App\Models\serviceModel->getSub_service('31')
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->sub_services('31', '48')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:45:12 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(41): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT img_name FROM image WHERE service_id = service.id) as img FROM service WHERE sub_ser=31')
+ 2 APPPATH\Controllers\Admin.php(479): App\Models\serviceModel->getSub_service('31')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->sub_services('31', '48')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:51:36 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(41): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(479): App\Models\serviceModel->getSub_service('35')
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->sub_services('35', '50')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:51:36 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(41): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT img_name FROM image WHERE service_id = service.id) as img FROM service WHERE sub_ser=35')
+ 2 APPPATH\Controllers\Admin.php(479): App\Models\serviceModel->getSub_service('35')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->sub_services('35', '50')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 06:55:51 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\serviceModel.php(41): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(479): App\Models\serviceModel->getSub_service('35')
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->sub_services('35', '50')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 06:55:51 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\serviceModel.php(41): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT img_name FROM image WHERE service_id = service.id) as img FROM service WHERE sub_ser=35')
+ 2 APPPATH\Controllers\Admin.php(479): App\Models\serviceModel->getSub_service('35')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->sub_services('35', '50')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 07:50:34 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\cartModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(468): App\Models\cartModel->getService_list('50')
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->services_list('50')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 07:50:34 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\cartModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT img_name FROM image WHERE service_id = cart.service_id) as img ,(SELECT name FROM service WHERE id = cart.service_id) as name FROM cart WHERE booking_id=50')
+ 2 APPPATH\Controllers\Admin.php(468): App\Models\cartModel->getService_list('50')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('50')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 07:51:21 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\cartModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(468): App\Models\cartModel->getService_list('50')
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->services_list('50')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 07:51:21 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\cartModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT img_name FROM image WHERE service_id = cart.service_id) as img ,(SELECT name FROM service WHERE id = cart.service_id) as name FROM cart WHERE booking_id=50')
+ 2 APPPATH\Controllers\Admin.php(468): App\Models\cartModel->getService_list('50')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('50')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 07:57:57 --> Undefined array key "img"
+in APPPATH\Views\book\bill.php on line 46.
+ 1 APPPATH\Views\book\bill.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(470): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('50')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 07:58:37 --> Undefined array key "img"
+in APPPATH\Views\book\bill.php on line 46.
+ 1 APPPATH\Views\book\bill.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(470): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('50')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 08:13:45 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Views\book\bill.php on line 50.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 3 APPPATH\Controllers\Admin.php(470): view('book/bill', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 08:15:33 --> Undefined variable $cartModel
+in APPPATH\Views\book\bill.php on line 42.
+ 1 APPPATH\Views\book\bill.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cartModel', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(470): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 08:22:37 --> Undefined variable $cartModel
+in APPPATH\Views\book\bill.php on line 42.
+ 1 APPPATH\Views\book\bill.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cartModel', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(470): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 08:25:15 --> Undefined variable $cartModel
+in APPPATH\Views\book\bill.php on line 42.
+ 1 APPPATH\Views\book\bill.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cartModel', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(470): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 08:27:03 --> Undefined variable $cartModel
+in APPPATH\Views\book\bill.php on line 42.
+ 1 APPPATH\Views\book\bill.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cartModel', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(470): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 08:27:39 --> Undefined variable $cartModel
+in APPPATH\Views\book\bill.php on line 42.
+ 1 APPPATH\Views\book\bill.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cartModel', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(470): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 08:44:41 --> Undefined array key "img_name"
+in APPPATH\Views\book\bill.php on line 49.
+ 1 APPPATH\Views\book\bill.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img_name"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(472): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 08:48:20 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, (SELE...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 C:\xampp\new xampp\htdocs\event\app\Models\cartModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(468): App\Models\cartModel->getService_list('52')
+#5 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+#6 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-12 08:48:20 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\cartModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT img_name FROM image WHERE service_id = cart.service_id) as img ,(SELECT name FROM service WHERE id = cart.service_id) as name FROM cart WHERE booking_id=52')
+ 2 APPPATH\Controllers\Admin.php(468): App\Models\cartModel->getService_list('52')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 09:24:38 --> Attempt to read property "customer_name" on null
+in APPPATH\Views\book\bill.php on line 7.
+ 1 APPPATH\Views\book\bill.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "customer_name" on null', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(472): view('book/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services_list('52')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 09:27:03 --> mysqli_sql_exception: Column 'sub_ser' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(89): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-12 09:27:03 --> Column 'sub_ser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `service` (`iddate`, `name`, `cost`, `deis`, `user`, `img`, `sub_ser`) VALUES (:iddate:, :name:, :cost:, :deis:, :user:, :img:, :sub_ser:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(89): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 09:28:37 --> mysqli_sql_exception: Column 'sub_ser' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-12 09:28:37 --> Column 'sub_ser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `image` (`img_name`, `service_id`, `cost`, `sub_ser`) VALUES (:img_name:, :service_id:, :cost:, :sub_ser:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 09:29:13 --> mysqli_sql_exception: Column 'sub_ser' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-12 09:29:13 --> Column 'sub_ser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `image` (`img_name`, `service_id`, `cost`, `sub_ser`) VALUES (:img_name:, :service_id:, :cost:, :sub_ser:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 09:29:28 --> mysqli_sql_exception: Column 'sub_ser' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-12 09:29:28 --> Column 'sub_ser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `image` (`img_name`, `service_id`, `cost`, `sub_ser`) VALUES (:img_name:, :service_id:, :cost:, :sub_ser:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 09:31:11 --> mysqli_sql_exception: Column 'sub_ser' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-12 09:31:11 --> Column 'sub_ser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `image` (`img_name`, `service_id`, `cost`, `sub_ser`) VALUES (:img_name:, :service_id:, :cost:, :sub_ser:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 09:31:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Admin.php(94): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\new xampp\\htdocs\\event\\public/uploads/service/', '1710235895_e6102791ab202775370a')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 09:31:48 --> mysqli_sql_exception: Column 'sub_ser' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-12 09:31:48 --> Column 'sub_ser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `image` (`img_name`, `service_id`, `cost`, `sub_ser`) VALUES (:img_name:, :service_id:, :cost:, :sub_ser:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addservice()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 11:27:52 --> Undefined array key "img"
+in APPPATH\Views\book\services.php on line 15.
+ 1 APPPATH\Views\book\services.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/services', [], true)
+ 5 APPPATH\Controllers\Admin.php(465): view('book/services', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services('57')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 11:28:46 --> Undefined array key "name"
+in APPPATH\Views\book\services.php on line 20.
+ 1 APPPATH\Views\book\services.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/services', [], true)
+ 5 APPPATH\Controllers\Admin.php(465): view('book/services', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services('57')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 11:29:47 --> Undefined array key "img"
+in APPPATH\Views\book\services.php on line 15.
+ 1 APPPATH\Views\book\services.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/services', [], true)
+ 5 APPPATH\Controllers\Admin.php(465): view('book/services', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services('57')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 11:37:06 --> Undefined variable $image
+in APPPATH\Views\book\services.php on line 89.
+ 1 APPPATH\Views\book\services.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/services', [], true)
+ 5 APPPATH\Controllers\Admin.php(465): view('book/services', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services('57')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 11:38:35 --> Undefined variable $image
+in APPPATH\Views\book\services.php on line 85.
+ 1 APPPATH\Views\book\services.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\services.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/services', [], true)
+ 5 APPPATH\Controllers\Admin.php(465): view('book/services', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->services('57')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

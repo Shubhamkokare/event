@@ -1,0 +1,338 @@
+CRITICAL - 2023-12-22 05:15:59 --> Undefined property: App\Controllers\Admin::$usersRow
+in APPPATH\Controllers\Admin.php on line 51.
+ 1 APPPATH\Controllers\Admin.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$usersRow', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 51)
+ 2 APPPATH\Controllers\Admin.php(185): App\Controllers\Admin->header('Add Transport')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 05:16:04 --> Undefined property: App\Controllers\Admin::$usersRow
+in APPPATH\Controllers\Admin.php on line 51.
+ 1 APPPATH\Controllers\Admin.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$usersRow', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 51)
+ 2 APPPATH\Controllers\Admin.php(185): App\Controllers\Admin->header('Add Transport')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addtransport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-22 05:16:55 --> mysqli_sql_exception: Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(822): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->addvehicalexcel()
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-22 05:16:55 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vehicle`
+WHERE `number` = :number:', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(822): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addvehicalexcel()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-22 05:20:05 --> mysqli_sql_exception: Table 'b2b.transport' doesn't exist in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(723): App\Models\transportMoled->getComForTransporter('HTC JAVED')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-22 05:20:05 --> Table 'b2b.transport' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'HTC JAVED\' ')
+ 2 APPPATH\Controllers\Admin.php(723): App\Models\transportMoled->getComForTransporter('HTC JAVED')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 05:20:28 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Admin.php on line 652.
+ 1 APPPATH\Controllers\Admin.php(652): sizeof(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-22 05:21:52 --> mysqli_sql_exception: Table 'b2b.transport' doesn't exist in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\new xampp\htdocs\b2b\app\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(723): App\Models\transportMoled->getComForTransporter('HTC JAVED')
+#5 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+#6 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-22 05:21:52 --> Table 'b2b.transport' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\transportMoled.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM transport WHERE name LIKE \'HTC JAVED\' ')
+ 2 APPPATH\Controllers\Admin.php(723): App\Models\transportMoled->getComForTransporter('HTC JAVED')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->frontupload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 06:53:34 --> Path cannot be empty
+in APPPATH\Controllers\Admin.php on line 908.
+ 1 APPPATH\Controllers\Admin.php(908): fopen('', 'r')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 06:55:29 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'C:\\xampp\\new xampp\\htdocs\\b2b\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\new xampp\\htdocs\\b2b\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(685): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\Admin.php(30): session()
+10 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+11 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 06:59:30 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'C:\\xampp\\new xampp\\htdocs\\b2b\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\new xampp\\htdocs\\b2b\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(685): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\Admin.php(30): session()
+10 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+11 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:19:26 --> Undefined array key 2
+in APPPATH\Controllers\Admin.php on line 916.
+ 1 APPPATH\Controllers\Admin.php(916): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 916)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:20:55 --> Undefined array key 2
+in APPPATH\Controllers\Admin.php on line 916.
+ 1 APPPATH\Controllers\Admin.php(916): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 916)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:21:44 --> Undefined array key 2
+in APPPATH\Controllers\Admin.php on line 916.
+ 1 APPPATH\Controllers\Admin.php(916): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 916)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:21:57 --> Undefined array key 2
+in APPPATH\Controllers\Admin.php on line 916.
+ 1 APPPATH\Controllers\Admin.php(916): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 916)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:25:35 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'C:\\xampp\\new xampp\\htdocs\\b2b\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\new xampp\\htdocs\\b2b\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(685): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\Admin.php(30): session()
+10 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+11 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:28:24 --> Undefined array key "date"
+in APPPATH\Controllers\Admin.php on line 868.
+ 1 APPPATH\Controllers\Admin.php(868): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 868)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:29:02 --> Undefined array key "date"
+in APPPATH\Controllers\Admin.php on line 868.
+ 1 APPPATH\Controllers\Admin.php(868): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 868)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:30:42 --> Undefined array key "$DIESEL_LTR"
+in APPPATH\Controllers\Admin.php on line 876.
+ 1 APPPATH\Controllers\Admin.php(876): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$DIESEL_LTR"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 876)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:32:52 --> Undefined array key "$DIESEL_LTR"
+in APPPATH\Controllers\Admin.php on line 876.
+ 1 APPPATH\Controllers\Admin.php(876): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$DIESEL_LTR"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 876)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:33:27 --> Undefined array key 2
+in APPPATH\Controllers\Admin.php on line 872.
+ 1 APPPATH\Controllers\Admin.php(872): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 872)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:49:01 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Admin.php on line 994.
+ 1 APPPATH\Controllers\Admin.php(994): sizeof(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transortcommission()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:49:54 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Admin.php on line 994.
+ 1 APPPATH\Controllers\Admin.php(994): sizeof(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transortcommission()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:50:17 --> Undefined variable $TRANSPORTER
+in APPPATH\Controllers\Admin.php on line 1054.
+ 1 APPPATH\Controllers\Admin.php(1054): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TRANSPORTER', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 1054)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transortcommission()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:51:22 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Admin.php on line 994.
+ 1 APPPATH\Controllers\Admin.php(994): sizeof(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transortcommission()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:53:15 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Admin.php on line 994.
+ 1 APPPATH\Controllers\Admin.php(994): sizeof(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transortcommission()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 07:53:26 --> Undefined variable $commission_p
+in APPPATH\Controllers\Admin.php on line 1002.
+ 1 APPPATH\Controllers\Admin.php(1002): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commission_p', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 1002)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transortcommission()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-22 07:55:08 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\b2b\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\new xampp\htdocs\b2b\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\b2b\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\b2b\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\b2b\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\b2b\app\Controllers\Admin.php(1004): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(919): App\Controllers\Admin->transortcommission()
+#9 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\b2b\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\b2b\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-22 07:55:08 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transport` (`iddate`, `name`, `commission_f`, `user`) VALUES (:iddate:, :name:, :commission_f:, :user:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(1004): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transortcommission()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 08:49:23 --> Undefined array key 2
+in APPPATH\Controllers\Admin.php on line 874.
+ 1 APPPATH\Controllers\Admin.php(874): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 874)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:06:21 --> Undefined array key "indentno"
+in APPPATH\Controllers\Admin.php on line 881.
+ 1 APPPATH\Controllers\Admin.php(881): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "indentno"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 881)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pump2()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:35:30 --> Undefined array key "ir"
+in APPPATH\Views\pump\list.php on line 95.
+ 1 APPPATH\Views\pump\list.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ir"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\pump\\list.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\pump\\list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pump/list', [], true)
+ 5 APPPATH\Controllers\Admin.php(995): view('pump/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->pumplist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:11:32 --> Undefined array key "vahicale_id"
+in APPPATH\Views\transport_entry\transport_entrylist.php on line 89.
+ 1 APPPATH\Views\transport_entry\transport_entrylist.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vahicale_id"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\transport_entrylist.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\transport_entrylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/transport_entrylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(311): view('transport_entry/transport_entrylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transport_entrytList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:23:44 --> Undefined array key "vahicale_id"
+in APPPATH\Views\transport_entry\transport_entrylist.php on line 89.
+ 1 APPPATH\Views\transport_entry\transport_entrylist.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vahicale_id"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\transport_entrylist.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\transport_entry\\transport_entrylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transport_entry/transport_entrylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(311): view('transport_entry/transport_entrylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transport_entrytList()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:30:45 --> Undefined property: App\Controllers\Admin::$transport_entryMoledMoled
+in APPPATH\Controllers\Admin.php on line 365.
+ 1 APPPATH\Controllers\Admin.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$transport_entryMoledMoled', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 365)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transport_entryList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:33:19 --> Undefined property: App\Controllers\Admin::$transport_entryModelMoled
+in APPPATH\Controllers\Admin.php on line 365.
+ 1 APPPATH\Controllers\Admin.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$transport_entryModelMoled', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 365)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transport_entryList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:33:25 --> Undefined property: App\Controllers\Admin::$transport_entryModelMoled
+in APPPATH\Controllers\Admin.php on line 365.
+ 1 APPPATH\Controllers\Admin.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$transport_entryModelMoled', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 365)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->transport_entryList()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

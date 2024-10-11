@@ -1,0 +1,747 @@
+CRITICAL - 2023-10-10 05:50:00 --> Class "App\Controllers\user_tableModel" not found
+in APPPATH\Controllers\Admin.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->darshan_list()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 05:50:34 --> Class "App\Controllers\DarshanModel" not found
+in APPPATH\Controllers\Admin.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 05:50:44 --> Class "App\Controllers\user_tableModel" not found
+in APPPATH\Controllers\Admin.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->darshan_list()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 05:51:35 --> Undefined variable $darshanmodel
+in APPPATH\Controllers\Admin.php on line 49.
+ 1 APPPATH\Controllers\Admin.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $darshanmodel', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->darshan_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 05:56:46 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Home.php on line 169.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->Status_Data_Insert()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 05:58:01 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Home.php on line 168.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->Status_Data_Insert()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 05:58:50 --> mysqli_sql_exception: Column 'image' cannot be null in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Home.php(176): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Home->Status_Data_Insert()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 05:58:50 --> Column 'image' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `darshan` (`descr`, `image`, `url`, `status`) VALUES (:descr:, :image:, :url:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(176): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->Status_Data_Insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:09:32 --> syntax error, unexpected single-quoted string ");", expecting ")"
+in APPPATH\Config\Routes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:13:52 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Admin.php on line 233.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:14:28 --> Undefined variable $name
+in APPPATH\Controllers\Admin.php on line 237.
+ 1 APPPATH\Controllers\Admin.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 237)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:15:51 --> Undefined variable $iadate
+in APPPATH\Controllers\Admin.php on line 238.
+ 1 APPPATH\Controllers\Admin.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iadate', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:16:06 --> Undefined variable $isdate
+in APPPATH\Controllers\Admin.php on line 238.
+ 1 APPPATH\Controllers\Admin.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isdate', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:45 --> Undefined variable $user_tableModel
+in APPPATH\Views\statustable.php on line 22.
+ 1 APPPATH\Views\statustable.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_tableModel', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(265): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statustable()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:20:17 --> Undefined variable $Model
+in APPPATH\Views\statustable.php on line 22.
+ 1 APPPATH\Views\statustable.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Model', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(265): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statustable()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 06:54:14 --> mysqli_sql_exception: Table 'livedarshan.parameters' doesn't exist in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(189): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 06:54:14 --> Table 'livedarshan.parameters' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `parameters` (`name`, `min`, `max`, `iddate`, `status`) VALUES (:name:, :min:, :max:, :iddate:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(189): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 07:12:41 --> mysqli_sql_exception: Table 'livedarshan.parameters' doesn't exist in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(189): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 07:12:41 --> Table 'livedarshan.parameters' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `parameters` (`name`, `min`, `max`, `iddate`, `status`) VALUES (:name:, :min:, :max:, :iddate:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(189): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 07:21:47 --> mysqli_sql_exception: Table 'livedarshan.parameters' doesn't exist in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(189): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 07:21:47 --> Table 'livedarshan.parameters' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `parameters` (`name`, `min`, `max`, `iddate`, `status`) VALUES (:name:, :min:, :max:, :iddate:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(189): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 07:40:01 --> mysqli_sql_exception: Column 'max' cannot be null in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(191): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 07:40:01 --> Column 'max' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `parameters` (`name`, `min`, `max`, `iddate`, `status`) VALUES (:name:, :min:, :max:, :iddate:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(191): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:19:23 --> mysqli_sql_exception: Table 'lmr.status' doesn't exist in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(245): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:19:23 --> Table 'lmr.status' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `status` (`iddate`) VALUES (:iddate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(245): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:23:46 --> mysqli_sql_exception: Column 'byuser' cannot be null in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(245): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:23:46 --> Column 'byuser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entriy` (`byuser`, `entry_date`, `iddate`) VALUES (:byuser:, :entry_date:, :iddate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(245): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:24:53 --> mysqli_sql_exception: Column 'byuser' cannot be null in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(245): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:24:53 --> Column 'byuser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entriy` (`byuser`, `entry_date`, `iddate`) VALUES (:byuser:, :entry_date:, :iddate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(245): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:25:34 --> mysqli_sql_exception: Column 'byuser' cannot be null in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(245): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:25:34 --> Column 'byuser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entriy` (`byuser`, `entry_date`, `iddate`) VALUES (:byuser:, :entry_date:, :iddate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(245): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:27:44 --> mysqli_sql_exception: Column 'byuser' cannot be null in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(245): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:27:44 --> Column 'byuser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entriy` (`byuser`, `entry_date`, `iddate`) VALUES (:byuser:, :entry_date:, :iddate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(245): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:28:22 --> mysqli_sql_exception: Column 'byuser' cannot be null in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(245): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:28:22 --> Column 'byuser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entriy` (`byuser`, `entry_date`, `iddate`) VALUES (:byuser:, :entry_date:, :iddate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(245): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:30:20 --> Undefined array key "title"
+in APPPATH\Views\statustable.php on line 26.
+ 1 APPPATH\Views\statustable.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statustable()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:31:53 --> Undefined array key "descr"
+in APPPATH\Views\statustable.php on line 25.
+ 1 APPPATH\Views\statustable.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descr"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statustable()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:35:55 --> Undefined array key "title"
+in APPPATH\Views\table.php on line 84.
+ 1 APPPATH\Views\table.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\table.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('table', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:36:58 --> Undefined array key "title"
+in APPPATH\Views\table.php on line 84.
+ 1 APPPATH\Views\table.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\table.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('table', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:37:18 --> Undefined array key "title"
+in APPPATH\Views\table.php on line 84.
+ 1 APPPATH\Views\table.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\table.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('table', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:39:05 --> Undefined array key "title"
+in APPPATH\Views\table.php on line 84.
+ 1 APPPATH\Views\table.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\table.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('table', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:56:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\edite.php on line 69.
+ 1 APPPATH\Views\edite.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edite', [], true)
+ 5 APPPATH\Controllers\Admin.php(169): view('edite', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edite('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:02:32 --> Undefined variable $model
+in APPPATH\Views\statustable.php on line 20.
+ 1 APPPATH\Views\statustable.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:04:42 --> Undefined array key "byuser"
+in APPPATH\Views\statustable.php on line 24.
+ 1 APPPATH\Views\statustable.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "byuser"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:07:41 --> Undefined array key "byuser"
+in APPPATH\Views\statustable.php on line 24.
+ 1 APPPATH\Views\statustable.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "byuser"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:07:44 --> Undefined array key "byuser"
+in APPPATH\Views\statustable.php on line 24.
+ 1 APPPATH\Views\statustable.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "byuser"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:08:26 --> Undefined array key "byuser"
+in APPPATH\Views\statustable.php on line 24.
+ 1 APPPATH\Views\statustable.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "byuser"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:09:12 --> Undefined array key "byuser"
+in APPPATH\Views\statustable.php on line 24.
+ 1 APPPATH\Views\statustable.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "byuser"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:10:04 --> Undefined array key "byuser"
+in APPPATH\Views\statustable.php on line 24.
+ 1 APPPATH\Views\statustable.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "byuser"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(131): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:15:36 --> Undefined variable $user_tableModel
+in APPPATH\Views\statustable.php on line 20.
+ 1 APPPATH\Views\statustable.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_tableModel', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statustable()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:22:06 --> Undefined variable $user_tableModel
+in APPPATH\Views\statustable.php on line 20.
+ 1 APPPATH\Views\statustable.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_tableModel', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\statustable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('statustable', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('statustable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statustable()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:39:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\edite.php on line 3.
+ 1 APPPATH\Views\edite.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edite', [], true)
+ 5 APPPATH\Controllers\Admin.php(169): view('edite', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edite('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:53:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\DarshanModel.php on line 13.
+ 1 APPPATH\Controllers\Admin.php(58): App\Models\DarshanModel->getParameters()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:53:34 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\parameter_list.php on line 23.
+ 1 APPPATH\Views\parameter_list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameter_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('parameter_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:56:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\DarshanModel.php on line 13.
+ 1 APPPATH\Controllers\Admin.php(58): App\Models\DarshanModel->getParameters()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:56:33 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\parameter_list.php on line 23.
+ 1 APPPATH\Views\parameter_list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameter_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('parameter_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:56:41 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\parameter_list.php on line 23.
+ 1 APPPATH\Views\parameter_list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameter_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('parameter_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:56:59 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\parameter_list.php on line 25.
+ 1 APPPATH\Views\parameter_list.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameter_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('parameter_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:57:37 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\parameter_list.php on line 25.
+ 1 APPPATH\Views\parameter_list.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameter_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('parameter_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:58:35 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\parameter_list.php on line 25.
+ 1 APPPATH\Views\parameter_list.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameter_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('parameter_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:59:05 --> Undefined variable $db
+in APPPATH\Models\DarshanModel.php on line 14.
+ 1 APPPATH\Models\DarshanModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Models\\DarshanModel.php', 14)
+ 2 APPPATH\Controllers\Admin.php(58): App\Models\DarshanModel->getParameters()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:59:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\DarshanModel.php on line 14.
+ 1 APPPATH\Controllers\Admin.php(58): App\Models\DarshanModel->getParameters()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:00:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\DarshanModel.php on line 14.
+ 1 APPPATH\Controllers\Admin.php(58): App\Models\DarshanModel->getParameters()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:04:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH\Models\DarshanModel.php on line 14.
+ 1 APPPATH\Controllers\Admin.php(58): App\Models\DarshanModel->getParameters()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:08:33 --> Undefined variable $list
+in APPPATH\Views\parameter_list.php on line 24.
+ 1 APPPATH\Views\parameter_list.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameter_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('parameter_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:10:44 --> Undefined variable $user_tableModel
+in APPPATH\Views\parameter_list.php on line 25.
+ 1 APPPATH\Views\parameter_list.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_tableModel', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\parameter_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameter_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('parameter_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:17:32 --> Undefined property: App\Controllers\Admin::$darshantable
+in APPPATH\Controllers\Admin.php on line 204.
+ 1 APPPATH\Controllers\Admin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$darshantable', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entry()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:17:51 --> Attempt to read property "name" on array
+in APPPATH\Views\entry.php on line 22.
+ 1 APPPATH\Views\entry.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(205): view('entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:18:13 --> Attempt to read property "type" on array
+in APPPATH\Views\entry.php on line 23.
+ 1 APPPATH\Views\entry.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "type" on array', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(205): view('entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:18:57 --> Attempt to read property "type" on array
+in APPPATH\Views\entry.php on line 23.
+ 1 APPPATH\Views\entry.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "type" on array', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(205): view('entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:19:18 --> Attempt to read property "type" on array
+in APPPATH\Views\entry.php on line 25.
+ 1 APPPATH\Views\entry.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "type" on array', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(205): view('entry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entry()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

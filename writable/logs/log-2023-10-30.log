@@ -1,0 +1,305 @@
+CRITICAL - 2023-10-30 05:11:42 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 50)
+ 2 APPPATH\Controllers\Admin.php(392): App\Controllers\Admin->header('Filter Production ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:11:46 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 50)
+ 2 APPPATH\Controllers\Admin.php(366): App\Controllers\Admin->header('Repot ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->report()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:11:50 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 50)
+ 2 APPPATH\Controllers\Admin.php(366): App\Controllers\Admin->header('Repot ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->report()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:24:54 --> Unsupported operand types: int + string
+in APPPATH\Views\production\productiondetail.php on line 30.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('production/productiondetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:32:18 --> Undefined variable $result
+in APPPATH\Views\production\productiondetail.php on line 26.
+ 1 APPPATH\Views\production\productiondetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(505): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:33:58 --> Undefined variable $result
+in APPPATH\Views\production\productiondetail.php on line 26.
+ 1 APPPATH\Views\production\productiondetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(505): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:12:18 --> Undefined array key "user_name"
+in APPPATH\Views\inpection\inpectionReportfilter.php on line 54.
+ 1 APPPATH\Views\inpection\inpectionReportfilter.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inpectionReportfilter.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inpectionReportfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inpectionReportfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('inpection/inpectionReportfilter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpectionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:14:44 --> Undefined array key "user_name"
+in APPPATH\Views\inpection\inpectionReportfilter.php on line 54.
+ 1 APPPATH\Views\inpection\inpectionReportfilter.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inpectionReportfilter.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inpectionReportfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inpectionReportfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('inpection/inpectionReportfilter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpectionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:16:43 --> Undefined variable $inspectionlist
+in APPPATH\Views\inpection\inspectiondetail.php on line 20.
+ 1 APPPATH\Views\inpection\inspectiondetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inspectionlist', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiondetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('inpection/inspectiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpectionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:17:51 --> Undefined array key "p_name"
+in APPPATH\Views\inpection\inspectiondetail.php on line 23.
+ 1 APPPATH\Views\inpection\inspectiondetail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p_name"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiondetail.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('inpection/inspectiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpectionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:22:20 --> Undefined array key "p_name"
+in APPPATH\Views\inpection\inspectiondetail.php on line 23.
+ 1 APPPATH\Views\inpection\inspectiondetail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p_name"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiondetail.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('inpection/inspectiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpectionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:34:13 --> Undefined array key "p_name"
+in APPPATH\Views\inpection\inspectiondetail.php on line 23.
+ 1 APPPATH\Views\inpection\inspectiondetail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p_name"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiondetail.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(414): view('inpection/inspectiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpectionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:51:03 --> Undefined variable $categories
+in APPPATH\Views\parameters\addparameters.php on line 39.
+ 1 APPPATH\Views\parameters\addparameters.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\parameters\\addparameters.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\parameters\\addparameters.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/addparameters', [], true)
+ 5 APPPATH\Controllers\Admin.php(185): view('parameters/addparameters', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_parameters('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:00:19 --> Undefined property: stdClass::$category
+in APPPATH\Views\parameters\addparameters.php on line 40.
+ 1 APPPATH\Views\parameters\addparameters.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\parameters\\addparameters.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\parameters\\addparameters.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/addparameters', [], true)
+ 5 APPPATH\Controllers\Admin.php(186): view('parameters/addparameters', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_parameters('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:00:28 --> Undefined property: stdClass::$category
+in APPPATH\Views\parameters\addparameters.php on line 40.
+ 1 APPPATH\Views\parameters\addparameters.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\parameters\\addparameters.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\parameters\\addparameters.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/addparameters', [], true)
+ 5 APPPATH\Controllers\Admin.php(186): view('parameters/addparameters', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_parameters('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:24:44 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:24:20 --> Undefined array key "actual"
+in APPPATH\Views\production\productiondetail.php on line 27.
+ 1 APPPATH\Views\production\productiondetail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "actual"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:25:29 --> Undefined array key "actual"
+in APPPATH\Views\production\productiondetail.php on line 27.
+ 1 APPPATH\Views\production\productiondetail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "actual"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:28:27 --> Undefined array key "dispatch"
+in APPPATH\Views\production\productiondetail.php on line 28.
+ 1 APPPATH\Views\production\productiondetail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dispatch"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:28:47 --> Undefined array key "new"
+in APPPATH\Views\production\productiondetail.php on line 28.
+ 1 APPPATH\Views\production\productiondetail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "new"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:29:38 --> Undefined array key "close"
+in APPPATH\Views\production\productiondetail.php on line 29.
+ 1 APPPATH\Views\production\productiondetail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "close"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:30:31 --> Undefined array key "entrydate"
+in APPPATH\Views\production\productiondetail.php on line 30.
+ 1 APPPATH\Views\production\productiondetail.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "entrydate"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:34:11 --> Undefined array key "p.product"
+in APPPATH\Views\production\productiondetail.php on line 29.
+ 1 APPPATH\Views\production\productiondetail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p.product"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:35:36 --> Undefined array key "
+
+(SUM(new)-SUM(dispatch) FROM production WHERE product=p.product)"
+in APPPATH\Views\production\productiondetail.php on line 29.
+ 1 APPPATH\Views\production\productiondetail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "
+
+(SUM(new)-SUM(dispatch) FROM production WHERE product=p.product)"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:47:39 --> Undefined property: App\Controllers\Admin::$db
+in APPPATH\Controllers\Admin.php on line 389.
+ 1 APPPATH\Controllers\Admin.php(389): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$db', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 389)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:54:32 --> Undefined array key "new"
+in APPPATH\Views\production\productiondetail.php on line 27.
+ 1 APPPATH\Views\production\productiondetail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "new"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(392): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:56:05 --> Undefined array key "sum(new)"
+in APPPATH\Views\production\productiondetail.php on line 27.
+ 1 APPPATH\Views\production\productiondetail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sum(new)"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:02:42 --> Undefined array key "SUM(close)"
+in APPPATH\Views\production\productiondetail.php on line 28.
+ 1 APPPATH\Views\production\productiondetail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SUM(close)"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(389): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:03:43 --> Undefined array key "prod_name"
+in APPPATH\Views\production\productiondetail.php on line 24.
+ 1 APPPATH\Views\production\productiondetail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_name"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(521): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,150 @@
+CRITICAL - 2023-10-31 06:11:50 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 52.
+ 1 APPPATH\Controllers\Admin.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 52)
+ 2 APPPATH\Controllers\Admin.php(450): App\Controllers\Admin->header('Master')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->master()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:11:59 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 52.
+ 1 APPPATH\Controllers\Admin.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 52)
+ 2 APPPATH\Controllers\Admin.php(404): App\Controllers\Admin->header('Filter Production ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:12:01 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 52.
+ 1 APPPATH\Controllers\Admin.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 52)
+ 2 APPPATH\Controllers\Admin.php(404): App\Controllers\Admin->header('Filter Production ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:03:09 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `accounting` (`amount`, `note`, `byuser`, `iddate`, `leagelid`) VALUES (:amount:, :note:, :byuser:, :iddate:, :leagelid:)', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounting` (`amount`, `note`, `byuser`, `iddate`, `leagelid`) VALUES (:amount:, :note:, :byuser:, :iddate:, :leagelid:)', [...], false)
+ 7 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 8 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 9 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+10 APPPATH\Controllers\Admin.php(626): CodeIgniter\Model->insert([...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addAccount()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:05:50 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `accounting` (`amount`, `note`, `byuser`, `iddate`, `leagelid`) VALUES (:amount:, :note:, :byuser:, :iddate:, :leagelid:)', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounting` (`amount`, `note`, `byuser`, `iddate`, `leagelid`) VALUES (:amount:, :note:, :byuser:, :iddate:, :leagelid:)', [...], false)
+ 7 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 8 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 9 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+10 APPPATH\Controllers\Admin.php(626): CodeIgniter\Model->insert([...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addAccount()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:07:45 --> Array to string conversion
+in APPPATH\Controllers\Admin.php on line 625.
+ 1 APPPATH\Controllers\Admin.php(625): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 625)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:13:15 --> Array to string conversion
+in APPPATH\Controllers\Admin.php on line 623.
+ 1 APPPATH\Controllers\Admin.php(623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 623)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:13:47 --> Array to string conversion
+in APPPATH\Controllers\Admin.php on line 623.
+ 1 APPPATH\Controllers\Admin.php(623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 623)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:15:10 --> Array to string conversion
+in APPPATH\Controllers\Admin.php on line 621.
+ 1 APPPATH\Controllers\Admin.php(621): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 621)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:33:04 --> Undefined array key "name"
+in APPPATH\Views\accounting\accountlist.php on line 14.
+ 1 APPPATH\Views\accounting\accountlist.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/Accountlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(636): view('accounting/Accountlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->accountlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 09:23:53 --> Undefined variable $accoutlist
+in APPPATH\Views\accounting\accountlist.php on line 25.
+ 1 APPPATH\Views\accounting\accountlist.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accoutlist', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/Accountlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(676): view('accounting/Accountlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editaccount('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 09:26:06 --> Undefined variable $accoutlist
+in APPPATH\Views\accounting\accountlist.php on line 25.
+ 1 APPPATH\Views\accounting\accountlist.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accoutlist', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/Accountlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(676): view('accounting/Accountlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editaccount('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 09:26:09 --> Undefined variable $accoutlist
+in APPPATH\Views\accounting\accountlist.php on line 25.
+ 1 APPPATH\Views\accounting\accountlist.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accoutlist', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/Accountlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(676): view('accounting/Accountlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editaccount('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 09:26:14 --> Undefined variable $accoutlist
+in APPPATH\Views\accounting\accountlist.php on line 25.
+ 1 APPPATH\Views\accounting\accountlist.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accoutlist', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\accountlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/Accountlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(676): view('accounting/Accountlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editaccount('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 09:30:56 --> Undefined variable $leadgels
+in APPPATH\Views\accounting\addAccounting.php on line 20.
+ 1 APPPATH\Views\accounting\addAccounting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $leadgels', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\addAccounting.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\addAccounting.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/addAccounting', [], true)
+ 5 APPPATH\Controllers\Admin.php(676): view('accounting/addAccounting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editaccount('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

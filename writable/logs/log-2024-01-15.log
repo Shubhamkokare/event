@@ -1,0 +1,31 @@
+CRITICAL - 2024-01-15 10:07:05 --> Undefined variable $categories
+in APPPATH\Views\bill\bill.php on line 19.
+ 1 APPPATH\Views\bill\bill.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(128): view('bill/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 10:07:22 --> syntax error, unexpected token "as", expecting variable or "{" or "$"
+in APPPATH\Views\bill\bill.php on line 19.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 3 APPPATH\Controllers\Admin.php(128): view('bill/bill', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 10:09:08 --> Undefined variable $categories
+in APPPATH\Views\bill\bill.php on line 19.
+ 1 APPPATH\Views\bill\bill.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(128): view('bill/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

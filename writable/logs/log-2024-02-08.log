@@ -1,0 +1,180 @@
+CRITICAL - 2024-02-08 05:21:34 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 60.
+ 1 APPPATH\Controllers\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 60)
+ 2 APPPATH\Controllers\Admin.php(456): App\Controllers\Admin->header('Booking List')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->orderlist('5')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 05:36:25 --> Too few arguments to function App\Controllers\Admin::updatestatus(), 0 passed in C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Admin.php on line 426.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 05:37:59 --> Attempt to read property "id" on null
+in APPPATH\Views\book\update.php on line 4.
+ 1 APPPATH\Views\book\update.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(447): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 05:38:13 --> Attempt to read property "id" on null
+in APPPATH\Views\book\update.php on line 4.
+ 1 APPPATH\Views\book\update.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(447): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 05:38:22 --> Attempt to read property "id" on null
+in APPPATH\Views\book\update.php on line 4.
+ 1 APPPATH\Views\book\update.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(447): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 05:38:46 --> Attempt to read property "id" on null
+in APPPATH\Views\book\update.php on line 4.
+ 1 APPPATH\Views\book\update.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(447): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 05:38:53 --> Attempt to read property "id" on null
+in APPPATH\Views\book\update.php on line 4.
+ 1 APPPATH\Views\book\update.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\event\\app\\Views\\book\\update.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('book/update', [], true)
+ 5 APPPATH\Controllers\Admin.php(447): view('book/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->updatestatus()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 06:09:16 --> mysqli_sql_exception: Column 'func_id' cannot be null in C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\event\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\new xampp\htdocs\event\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\new xampp\htdocs\event\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\event\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\event\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\event\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\event\app\Controllers\Admin.php(373): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(919): App\Controllers\Admin->book()
+#9 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\event\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\event\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-08 06:09:16 --> Column 'func_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`client_id`, `iddate`, `func_date`, `address`, `remark`, `func_id`, `by_userid`) VALUES (:client_id:, :iddate:, :func_date:, :address:, :remark:, :func_id:, :by_userid:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(373): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->book()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:04:53 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('10')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:05:03 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('10')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:05:18 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('6')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:05:51 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:26:01 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('10')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:32:23 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:32:38 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('10')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:32:47 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('10')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:34:14 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('10')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:34:28 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('12')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 07:36:30 --> Undefined array key "boking_details"
+in APPPATH\Controllers\Admin.php on line 491.
+ 1 APPPATH\Controllers\Admin.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "boking_details"', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 491)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 11:00:34 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 60.
+ 1 APPPATH\Controllers\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\event\\app\\Controllers\\Admin.php', 60)
+ 2 APPPATH\Controllers\Admin.php(491): App\Controllers\Admin->header('Booking List')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->list('10')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

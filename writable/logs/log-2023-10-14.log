@@ -1,0 +1,29 @@
+CRITICAL - 2023-10-14 05:38:08 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 387.
+ 1 APPPATH\Controllers\Admin.php(387): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 387)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inventory()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:11:50 --> Undefined array key "id"
+in APPPATH\Views\updateentry.php on line 6.
+ 1 APPPATH\Views\updateentry.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\updateentry.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\updateentry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('updateentry', [], true)
+ 5 APPPATH\Controllers\Admin.php(297): view('updateentry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editentry('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:12:12 --> Undefined array key "id"
+in APPPATH\Views\updateentry.php on line 6.
+ 1 APPPATH\Views\updateentry.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\updateentry.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\updateentry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('updateentry', [], true)
+ 5 APPPATH\Controllers\Admin.php(297): view('updateentry', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->editentry('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

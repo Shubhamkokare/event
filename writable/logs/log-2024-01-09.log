@@ -1,0 +1,203 @@
+ERROR - 2024-01-09 13:33:44 --> mysqli_sql_exception: Table 'gst.users' doesn't exist in C:\xampp\new xampp\htdocs\gst\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\gst\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\xampp\new xampp\htdocs\gst\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\new xampp\htdocs\gst\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\new xampp\htdocs\gst\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\new xampp\htdocs\gst\app\Models\userModel.php(37): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\new xampp\htdocs\gst\app\Controllers\Home.php(28): App\Models\userModel->set_user_token('c4ca4238a0b9238...', '1')
+#6 C:\xampp\new xampp\htdocs\gst\system\CodeIgniter.php(919): App\Controllers\Home->login()
+#7 C:\xampp\new xampp\htdocs\gst\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\new xampp\htdocs\gst\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\gst\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 13:33:44 --> Table 'gst.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `authtoken` = :authtoken:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\userModel.php(37): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\Home.php(28): App\Models\userModel->set_user_token('c4ca4238a0b923820dcc509a6f75849b', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 13:34:48 --> Call to undefined method App\Controllers\Admin::header()
+in APPPATH\Controllers\Admin.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 13:37:51 --> Invalid file: "inclide/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inclide/footer.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inclide/footer', [], true)
+ 3 APPPATH\Controllers\Admin.php(24): view('inclide/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 15:42:51 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Controllers\\Admin.php', 32)
+ 2 APPPATH\Controllers\Admin.php(24): App\Controllers\Admin->header('Dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 15:43:54 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Controllers\\Admin.php', 32)
+ 2 APPPATH\Controllers\Admin.php(24): App\Controllers\Admin->header('Dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 16:35:40 --> mysqli_sql_exception: Table 'gst.product' doesn't exist in C:\xampp\new xampp\htdocs\gst\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\gst\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\new xampp\htdocs\gst\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\new xampp\htdocs\gst\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\new xampp\htdocs\gst\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\new xampp\htdocs\gst\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\gst\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\gst\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\gst\app\Controllers\Admin.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\gst\system\CodeIgniter.php(919): App\Controllers\Admin->addproduct()
+#9 C:\xampp\new xampp\htdocs\gst\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\gst\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\gst\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-09 16:35:40 --> Table 'gst.product' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`iddate`, `name`, `price`, `qty`, `category`, `user`) VALUES (:iddate:, :name:, :price:, :qty:, :category:, :user:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 16:39:00 --> Undefined constant "App\Controllers\redirect"
+in APPPATH\Controllers\Admin.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 16:39:31 --> Invalid file: "productlist.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productlist.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(108): view('productlist')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productlist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 16:41:21 --> Invalid file: "productlist.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productlist.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(108): view('productlist')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productlist()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 16:42:09 --> Undefined variable $productlist
+in APPPATH\Views\product\productlist.php on line 21.
+ 1 APPPATH\Views\product\productlist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productlist', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\product\\productlist.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\product\\productlist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product/productlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(108): view('product/productlist')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:21:52 --> Invalid file: "bill/bill.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bill/bill.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 3 APPPATH\Controllers\Admin.php(117): view('bill/bill')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:22:31 --> include(db.php): Failed to open stream: No such file or directory
+in APPPATH\Views\bill\bill.php on line 2.
+ 1 APPPATH\Views\bill\bill.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(db.php): Failed to open stream: No such file or directory', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 2)
+ 2 APPPATH\Views\bill\bill.php(2): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 6 APPPATH\Controllers\Admin.php(117): view('bill/bill')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:22:49 --> Undefined variable $conn
+in APPPATH\Views\bill\bill.php on line 46.
+ 1 APPPATH\Views\bill\bill.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(117): view('bill/bill')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:24:18 --> include(db.php): Failed to open stream: No such file or directory
+in APPPATH\Views\bill\bill.php on line 2.
+ 1 APPPATH\Views\bill\bill.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(db.php): Failed to open stream: No such file or directory', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 2)
+ 2 APPPATH\Views\bill\bill.php(2): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 6 APPPATH\Controllers\Admin.php(117): view('bill/bill')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:25:31 --> Undefined variable $conn
+in APPPATH\Views\bill\bill.php on line 45.
+ 1 APPPATH\Views\bill\bill.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(117): view('bill/bill')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:26:18 --> Undefined variable $conn
+in APPPATH\Views\bill\bill.php on line 45.
+ 1 APPPATH\Views\bill\bill.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(117): view('bill/bill')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:34:57 --> Undefined variable $driver
+in APPPATH\Views\bill\bill.php on line 49.
+ 1 APPPATH\Views\bill\bill.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $driver', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(118): view('bill/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:36:38 --> Undefined variable $driver
+in APPPATH\Views\bill\bill.php on line 47.
+ 1 APPPATH\Views\bill\bill.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $driver', 'C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\gst\\app\\Views\\bill\\bill.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('bill/bill', [], true)
+ 5 APPPATH\Controllers\Admin.php(118): view('bill/bill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->bill()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

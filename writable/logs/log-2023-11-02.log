@@ -1,0 +1,112 @@
+CRITICAL - 2023-11-02 05:11:39 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 62)
+ 2 APPPATH\Controllers\Admin.php(596): App\Controllers\Admin->header('Inspection Type')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inspectionType()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 05:18:59 --> Undefined array key "prod_name"
+in APPPATH\Views\production\productiondetail.php on line 24.
+ 1 APPPATH\Views\production\productiondetail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_name"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(535): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 05:32:08 --> Undefined array key "Dispatch"
+in APPPATH\Views\production\productionfiltertable.php on line 27.
+ 1 APPPATH\Views\production\productionfiltertable.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Dispatch"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productionfiltertable.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productionfiltertable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productionfiltertable', [], true)
+ 5 APPPATH\Controllers\Admin.php(535): view('production/productionfiltertable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:47:06 --> Undefined array key "due_amount"
+in APPPATH\Views\accounting\partylist.php on line 29.
+ 1 APPPATH\Views\accounting\partylist.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_amount"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\partylist.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\partylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/partylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(793): view('accounting/partylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->partylist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:52:40 --> Undefined array key "due_amount"
+in APPPATH\Views\accounting\partylist.php on line 29.
+ 1 APPPATH\Views\accounting\partylist.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_amount"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\partylist.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\partylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/partylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(793): view('accounting/partylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->partylist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:53:03 --> Undefined array key "due_amount"
+in APPPATH\Views\accounting\partylist.php on line 29.
+ 1 APPPATH\Views\accounting\partylist.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_amount"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\partylist.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\partylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/partylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(793): view('accounting/partylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->partylist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 10:06:15 --> Undefined array key "total"
+in APPPATH\Views\accounting\partylist.php on line 30.
+ 1 APPPATH\Views\accounting\partylist.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\partylist.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\accounting\\partylist.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('accounting/partylist', [], true)
+ 5 APPPATH\Controllers\Admin.php(793): view('accounting/partylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->partylist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 11:03:38 --> Undefined variable $inventory_couunt
+in APPPATH\Views\home.php on line 48.
+ 1 APPPATH\Views\home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inventory_couunt', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\home.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Admin.php(55): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 11:09:34 --> Call to undefined method App\Models\parameterModel::count
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\parameterModel.php(34): CodeIgniter\Model->__call('count', [])
+ 2 APPPATH\Controllers\Admin.php(66): App\Models\parameterModel->countByDate('2023-11-02 11:09:34')
+ 3 APPPATH\Controllers\Admin.php(54): App\Controllers\Admin->header('Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 11:11:24 --> Call to undefined method App\Models\parameterModel::count
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\parameterModel.php(34): CodeIgniter\Model->__call('count', [])
+ 2 APPPATH\Controllers\Admin.php(66): App\Models\parameterModel->countByDate('2023-11-02 11:11:24')
+ 3 APPPATH\Controllers\Admin.php(54): App\Controllers\Admin->header('Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 11:11:25 --> Call to undefined method App\Models\parameterModel::count
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\parameterModel.php(34): CodeIgniter\Model->__call('count', [])
+ 2 APPPATH\Controllers\Admin.php(66): App\Models\parameterModel->countByDate('2023-11-02 11:11:25')
+ 3 APPPATH\Controllers\Admin.php(54): App\Controllers\Admin->header('Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

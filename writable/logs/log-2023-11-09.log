@@ -1,0 +1,64 @@
+CRITICAL - 2023-11-09 05:52:34 --> Undefined property: App\Controllers\Admin::$userRow
+in APPPATH\Controllers\Admin.php on line 65.
+ 1 APPPATH\Controllers\Admin.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userRow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 65)
+ 2 APPPATH\Controllers\Admin.php(451): App\Controllers\Admin->header('Repot ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->report()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 06:44:21 --> Invalid file: "inpection/inspectiondetail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inpection/inspectiondetail.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiondetail', [], true)
+ 3 APPPATH\Controllers\Admin.php(615): view('inpection/inspectiondetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inspection_detail('17')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 07:18:12 --> Invalid file: "inpection/inspectiondetail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inpection/inspectiondetail.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiondetail', [], true)
+ 3 APPPATH\Controllers\Admin.php(615): view('inpection/inspectiondetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inspection_detail('16')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 07:25:37 --> Invalid file: "inpection/inspectiondetail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inpection/inspectiondetail.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiondetail', [], true)
+ 3 APPPATH\Controllers\Admin.php(615): view('inpection/inspectiondetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inspection_detail('16')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 07:25:49 --> Invalid file: "inpection/inspectiondetail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inpection/inspectiondetail.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiondetail', [], true)
+ 3 APPPATH\Controllers\Admin.php(615): view('inpection/inspectiondetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inspection_detail('16')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 07:30:10 --> Invalid file: "inpectionReportfilter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inpectionReportfilter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpectionReportfilter', [], true)
+ 3 APPPATH\Controllers\Admin.php(615): view('inpectionReportfilter', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inspection_detail('16')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 07:54:49 --> Undefined array key "id"
+in APPPATH\Views\productionfilter.php on line 63.
+ 1 APPPATH\Views\productionfilter.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 63)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(464): view('productionfilter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

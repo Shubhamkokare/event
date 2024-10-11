@@ -1,0 +1,785 @@
+CRITICAL - 2023-10-26 06:04:10 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Admin.php on line 329.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:08:39 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Admin.php on line 329.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Admin')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:15:40 --> Undefined property: App\Controllers\Admin::$userrow
+in APPPATH\Controllers\Admin.php on line 298.
+ 1 APPPATH\Controllers\Admin.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$userrow', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addproducion()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:46:05 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin.php on line 396.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:46:05 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin.php on line 396.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:46:25 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin.php on line 396.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Admin')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:47:24 --> Class "App\Models\inpsectionModel" not found
+in APPPATH\Controllers\Admin.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:05:22 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin.php on line 395.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Admin')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:06:35 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin.php on line 395.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Admin')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:06:36 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin.php on line 395.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Admin')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:06:36 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin.php on line 395.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Admin')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:40:12 --> Undefined array key "prd_id"
+in APPPATH\Controllers\Admin.php on line 386.
+ 1 APPPATH\Controllers\Admin.php(386): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prd_id"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 386)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addinspection()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:02:02 --> Undefined property: App\Controllers\Admin::$db
+in APPPATH\Controllers\Admin.php on line 413.
+ 1 APPPATH\Controllers\Admin.php(413): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$db', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 413)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:03:57 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Controllers\Admin.php on line 413.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:03:58 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Controllers\Admin.php on line 413.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:04:00 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Controllers\Admin.php on line 413.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 08:04:18 --> mysqli_sql_exception: Table 'lmrproject.entriy' doesn't exist in C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\lmv1\app\Controllers\Admin.php(413): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+#5 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\lmv1\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 08:04:18 --> Table 'lmrproject.entriy' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Admin.php(413): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT name FROM user WHERE id=producion_entry.byuser) as user_name FROM entriy ')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 08:04:19 --> mysqli_sql_exception: Table 'lmrproject.entriy' doesn't exist in C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\lmv1\app\Controllers\Admin.php(413): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+#5 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\lmv1\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 08:04:19 --> Table 'lmrproject.entriy' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Admin.php(413): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT name FROM user WHERE id=producion_entry.byuser) as user_name FROM entriy ')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:04:59 --> Undefined array key "entry_date"
+in APPPATH\Views\production\productiontable.php on line 23.
+ 1 APPPATH\Views\production\productiontable.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "entry_date"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiontable.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiontable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiontable', [], true)
+ 5 APPPATH\Controllers\Admin.php(415): view('production/productiontable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:05:36 --> Undefined array key "entry_date"
+in APPPATH\Views\production\productiontable.php on line 23.
+ 1 APPPATH\Views\production\productiontable.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "entry_date"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiontable.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiontable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiontable', [], true)
+ 5 APPPATH\Controllers\Admin.php(415): view('production/productiontable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:39:01 --> Undefined property: App\Controllers\Admin::$db
+in APPPATH\Controllers\Admin.php on line 425.
+ 1 APPPATH\Controllers\Admin.php(425): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$db', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php', 425)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 08:40:18 --> mysqli_sql_exception: Unknown column 'entryid' in 'where clause' in C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,(SELEC...', 0)
+#1 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,(SELEC...')
+#2 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,(SELEC...')
+#3 C:\xampp\new xampp\htdocs\lmv1\app\Controllers\Admin.php(427): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELEC...')
+#4 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+#5 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\lmv1\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 08:40:18 --> Unknown column 'entryid' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Admin.php(427): CodeIgniter\Database\BaseConnection->query('SELECT *,(SELECT name FROM parameters WHERE id=production.product) as p_name FROM production WHERE entryid=1')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:57:43 --> Undefined variable $model
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:59:48 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:59:50 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:10 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:11 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:11 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:12 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:00:12 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:04:24 --> Undefined variable $model
+in APPPATH\Views\production\productiontable.php on line 19.
+ 1 APPPATH\Views\production\productiontable.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiontable.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiontable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiontable', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('production/productiontable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:04:32 --> Undefined variable $model
+in APPPATH\Views\production\productiontable.php on line 19.
+ 1 APPPATH\Views\production\productiontable.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiontable.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiontable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiontable', [], true)
+ 5 APPPATH\Controllers\Admin.php(417): view('production/productiontable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:05:05 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:16:31 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:16:32 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:16:39 --> Undefined variable $production
+in APPPATH\Views\production\productiondetail.php on line 19.
+ 1 APPPATH\Views\production\productiondetail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $production', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:16:57 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\production\productiondetail.php on line 20.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 4 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:16:58 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\production\productiondetail.php on line 20.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 4 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:39:08 --> Undefined array key "ptype"
+in APPPATH\Views\production\productiondetail.php on line 26.
+ 1 APPPATH\Views\production\productiondetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ptype"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 09:49:55 --> Undefined array key "peroduct"
+in APPPATH\Views\production\productiondetail.php on line 22.
+ 1 APPPATH\Views\production\productiondetail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "peroduct"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\production\\productiondetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('production/productiondetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(435): view('production/productiondetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->production_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:07:47 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:50:12 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:50:21 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:50:24 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:50:28 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Admin')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:50:30 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:51:59 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:52:01 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:52:07 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:52:21 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 388.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Admin')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:57:00 --> Undefined variable $filteredData
+in APPPATH\Views\productionfilter.php on line 42.
+ 1 APPPATH\Views\productionfilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(364): view('productionfilter')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:59:12 --> Undefined variable $filteredData
+in APPPATH\Views\productionfilter.php on line 42.
+ 1 APPPATH\Views\productionfilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(364): view('productionfilter')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:59:13 --> Undefined variable $filteredData
+in APPPATH\Views\productionfilter.php on line 42.
+ 1 APPPATH\Views\productionfilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(364): view('productionfilter')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:59:13 --> Undefined variable $filteredData
+in APPPATH\Views\productionfilter.php on line 42.
+ 1 APPPATH\Views\productionfilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(364): view('productionfilter')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:59:14 --> Undefined variable $filteredData
+in APPPATH\Views\productionfilter.php on line 42.
+ 1 APPPATH\Views\productionfilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(364): view('productionfilter')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:59:15 --> Undefined variable $filteredData
+in APPPATH\Views\productionfilter.php on line 42.
+ 1 APPPATH\Views\productionfilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(364): view('productionfilter')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:59:15 --> Undefined variable $filteredData
+in APPPATH\Views\productionfilter.php on line 42.
+ 1 APPPATH\Views\productionfilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(364): view('productionfilter')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:59:21 --> Undefined variable $filteredData
+in APPPATH\Views\productionfilter.php on line 42.
+ 1 APPPATH\Views\productionfilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter', [], true)
+ 5 APPPATH\Controllers\Admin.php(364): view('productionfilter')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 10:59:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3 in C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\lmv1\app\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+#6 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\lmv1\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-26 10:59:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `production`
+WHERE `iddate` > IS NULL
+AND `iddate` < IS NULL', [], false)
+ 2 APPPATH\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 11:00:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3 in C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\lmv1\app\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+#6 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\lmv1\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-26 11:00:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `production`
+WHERE `iddate` > IS NULL
+AND `iddate` < IS NULL', [], false)
+ 2 APPPATH\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 11:00:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3 in C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\lmv1\app\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+#6 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\lmv1\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-26 11:00:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `production`
+WHERE `iddate` > IS NULL
+AND `iddate` < IS NULL', [], false)
+ 2 APPPATH\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 11:00:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3 in C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\lmv1\app\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+#6 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\lmv1\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-26 11:00:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `production`
+WHERE `iddate` > IS NULL
+AND `iddate` < IS NULL', [], false)
+ 2 APPPATH\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 11:00:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3 in C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\lmv1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\new xampp\htdocs\lmv1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\new xampp\htdocs\lmv1\app\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+#6 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\new xampp\htdocs\lmv1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\lmv1\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-26 11:00:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `iddate` < IS NULL' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `production`
+WHERE `iddate` > IS NULL
+AND `iddate` < IS NULL', [], false)
+ 2 APPPATH\Controllers\Admin.php(373): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:02:23 --> Unmatched '}'
+in APPPATH\Controllers\Admin.php on line 392.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:03:58 --> Cannot use object of type stdClass as array
+in APPPATH\Views\productionfilter1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter1', [], true)
+ 4 APPPATH\Controllers\Admin.php(383): view('productionfilter1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionfilter()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:05:04 --> Cannot use object of type stdClass as array
+in APPPATH\Views\productionfilter1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter1', [], true)
+ 4 APPPATH\Controllers\Admin.php(383): view('productionfilter1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionfilter()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:05:57 --> Cannot use object of type stdClass as array
+in APPPATH\Views\productionfilter1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter1', [], true)
+ 4 APPPATH\Controllers\Admin.php(383): view('productionfilter1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionfilter()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:06:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\productionfilter1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter1', [], true)
+ 4 APPPATH\Controllers\Admin.php(383): view('productionfilter1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionfilter()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:07:24 --> Cannot use object of type stdClass as array
+in APPPATH\Views\productionfilter1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter1', [], true)
+ 4 APPPATH\Controllers\Admin.php(383): view('productionfilter1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionfilter()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:09:02 --> Undefined variable $item
+in APPPATH\Views\productionfilter1.php on line 19.
+ 1 APPPATH\Views\productionfilter1.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter1.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\productionfilter1.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter1', [], true)
+ 5 APPPATH\Controllers\Admin.php(383): view('productionfilter1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionfilter()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:09:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\productionfilter1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productionfilter1', [], true)
+ 4 APPPATH\Controllers\Admin.php(383): view('productionfilter1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionfilter()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:22:20 --> Call to undefined method App\Models\production_entryModel::getDataBy_Date
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin.php(366): CodeIgniter\Model->__call('getDataBy_Date', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->productionReport()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,174 @@
+CRITICAL - 2023-10-17 05:43:49 --> Class "App\Models\loginmodel" not found
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 07:09:52 --> mysqli_sql_exception: Table 'lmrproject.user' doesn't exist in C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\LMRPROJECT\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\LMRPROJECT\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\LMRPROJECT\app\Controllers\Admin.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(919): App\Controllers\Admin->user()
+#9 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\LMRPROJECT\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\LMRPROJECT\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-17 07:09:52 --> Table 'lmrproject.user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `userName`, `iddate`, `password`, `role`) VALUES (:name:, :userName:, :iddate:, :password:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->user()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 08:13:46 --> Invalid file: "include/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('include/.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('include/', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('include/')
+ 4 APPPATH\Controllers\Home.php(23): App\Controllers\Home->header('Login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 08:14:12 --> Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\Home.php(23): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 08:17:30 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\signin.php on line 9.
+ 1 APPPATH\Views\signin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\signin.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\signin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signin', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('signin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 08:19:18 --> App\Controllers\Home::login(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Controllers\Home.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 08:19:32 --> Undefined variable $data
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Controllers\\Admin.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:32:32 --> include(include/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\parameters\addparameters.php on line 2.
+ 1 APPPATH\Views\parameters\addparameters.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\addparameters.php', 2)
+ 2 APPPATH\Views\parameters\addparameters.php(2): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\addparameters.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/addparameters', [], true)
+ 6 APPPATH\Controllers\Admin.php(76): view('parameters/addparameters')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addParameters()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:33:03 --> include(include/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\parameters\addparameters.php on line 40.
+ 1 APPPATH\Views\parameters\addparameters.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include/footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\addparameters.php', 40)
+ 2 APPPATH\Views\parameters\addparameters.php(40): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\addparameters.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/addparameters', [], true)
+ 6 APPPATH\Controllers\Admin.php(76): view('parameters/addparameters')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addParameters()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:02:34 --> Undefined variable $list
+in APPPATH\Views\parameters\list.php on line 34.
+ 1 APPPATH\Views\parameters\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/list', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('parameters/list')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameters()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:03:17 --> Undefined variable $list
+in APPPATH\Views\parameters\list.php on line 34.
+ 1 APPPATH\Views\parameters\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/list', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('parameters/list')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameters()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:08:47 --> Undefined variable $list
+in APPPATH\Views\parameters\list.php on line 34.
+ 1 APPPATH\Views\parameters\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/list', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('parameters/list')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameters()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:10:47 --> Undefined variable $list
+in APPPATH\Views\parameters\list.php on line 34.
+ 1 APPPATH\Views\parameters\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/list', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('parameters/list')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameters()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:15:08 --> Cannot redeclare App\Controllers\Admin::parameterList()
+in APPPATH\Controllers\Admin.php on line 77.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-17 10:34:31 --> Undefined variable $session
+in APPPATH\Views\parameters\addparameters.php on line 9.
+ 1 APPPATH\Views\parameters\addparameters.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\addparameters.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Views\\parameters\\addparameters.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('parameters/addparameters', [], true)
+ 5 APPPATH\Controllers\Admin.php(113): view('parameters/addparameters')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addparameters()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:56:09 --> Undefined property: App\Controllers\Admin::$parameterList
+in APPPATH\Controllers\Admin.php on line 114.
+ 1 APPPATH\Controllers\Admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$parameterList', 'C:\\xampp\\new xampp\\htdocs\\LMRPROJECT\\app\\Controllers\\Admin.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addparameters('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 11:03:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(144): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_parameters('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

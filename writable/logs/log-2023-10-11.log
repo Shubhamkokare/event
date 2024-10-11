@@ -1,0 +1,285 @@
+ERROR - 2023-10-11 05:06:20 --> mysqli_sql_exception: Column 'byuser' cannot be null in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\new xampp\htdocs\newlmr\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(222): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+#9 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-11 05:06:20 --> Column 'byuser' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entriy` (`byuser`, `entry_date`, `iddate`) VALUES (:byuser:, :entry_date:, :iddate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(222): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 05:13:30 --> Class "App\Models\DarshanModel" not found
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 05:14:48 --> Class "App\Controllers\parametersModel" not found
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 05:21:53 --> Invalid file: "Darshan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Darshan.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Darshan', [], true)
+ 3 APPPATH\Controllers\Admin.php(92): view('Darshan')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->parameter()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 05:24:08 --> Class "App\Controllers\DarshanModel" not found
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->Status_Data_Insert()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 08:02:29 --> Class "App\Models\DarshanModel" not found
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 08:04:06 --> Class "App\Controllers\DarshanModel" not found
+in APPPATH\Controllers\Admin.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edite('5')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 08:10:00 --> Class "App\Controllers\DarshanModel" not found
+in APPPATH\Controllers\Admin.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edite('5')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 08:52:41 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 218.
+ 1 APPPATH\Controllers\Admin.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 08:53:29 --> Class "App\Models\DarshanModel" not found
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 08:54:45 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 218.
+ 1 APPPATH\Controllers\Admin.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 08:58:30 --> Invalid file: "Status.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Status.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Status', [], true)
+ 3 APPPATH\Controllers\Admin.php(235): view('Status')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:02:16 --> Invalid file: "Status.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Status.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Status', [], true)
+ 3 APPPATH\Controllers\Admin.php(241): view('Status')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:54:39 --> syntax error, unexpected variable "$parameters"
+in APPPATH\Controllers\Admin.php on line 301.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:56:52 --> Invalid file: "Status.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Status.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Status', [], true)
+ 3 APPPATH\Controllers\Admin.php(244): view('Status')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:59:39 --> Invalid file: "Status.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Status.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Status', [], true)
+ 3 APPPATH\Controllers\Admin.php(244): view('Status')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 10:02:46 --> Undefined variable $parameters
+in APPPATH\Views\entry.php on line 20.
+ 1 APPPATH\Views\entry.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parameters', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(244): view('entry')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 10:03:17 --> Undefined variable $parameters
+in APPPATH\Views\entry.php on line 20.
+ 1 APPPATH\Views\entry.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parameters', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(244): view('entry')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->statusdata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 10:16:39 --> Invalid file: "entrydelail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entrydelail.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entrydelail', [], true)
+ 3 APPPATH\Controllers\Admin.php(303): view('entrydelail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entry_list()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 10:17:27 --> Undefined array key "status"
+in APPPATH\Views\entrydetail.php on line 30.
+ 1 APPPATH\Views\entrydetail.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entrydetail.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entrydetail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entrydetail', [], true)
+ 5 APPPATH\Controllers\Admin.php(303): view('entrydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entry_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 10:28:43 --> Class "App\Controllers\DB" not found
+in APPPATH\Controllers\Admin.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 10:28:55 --> Undefined property: App\Controllers\Admin::$db
+in APPPATH\Controllers\Admin.php on line 303.
+ 1 APPPATH\Controllers\Admin.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$db', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 303)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entry_list('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 10:51:50 --> Undefined property: App\Controllers\Admin::$entryModel
+in APPPATH\Controllers\Admin.php on line 41.
+ 1 APPPATH\Controllers\Admin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$entryModel', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Controllers\\Admin.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:08:40 --> Cannot redeclare App\Controllers\Admin::entry_list()
+in APPPATH\Controllers\Admin.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-11 15:14:31 --> Undefined variable $parameters
+in APPPATH\Views\entry.php on line 20.
+ 1 APPPATH\Views\entry.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parameters', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(245): view('entry')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entrydata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:15:09 --> Undefined variable $parameters
+in APPPATH\Views\entry.php on line 20.
+ 1 APPPATH\Views\entry.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parameters', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(245): view('entry')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entrydata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:18:05 --> Undefined variable $parameters
+in APPPATH\Views\entry.php on line 20.
+ 1 APPPATH\Views\entry.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parameters', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\entry.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entry', [], true)
+ 5 APPPATH\Controllers\Admin.php(245): view('entry')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->entrydata()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:31:30 --> Cannot redeclare App\Controllers\Admin::entry_list()
+in APPPATH\Controllers\Admin.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-11 15:40:44 --> Cannot redeclare App\Controllers\Admin::entry_list()
+in APPPATH\Controllers\Admin.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-11 15:40:55 --> Cannot redeclare App\Controllers\Admin::entry_list()
+in APPPATH\Controllers\Admin.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-11 15:41:09 --> Cannot redeclare App\Controllers\Admin::entry_list()
+in APPPATH\Controllers\Admin.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-11 15:41:42 --> Cannot redeclare App\Controllers\Admin::entry_list()
+in APPPATH\Controllers\Admin.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-11 16:15:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\edite.php on line 3.
+ 1 APPPATH\Views\edite.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\newlmr\\app\\Views\\edite.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edite', [], true)
+ 5 APPPATH\Controllers\Admin.php(149): view('edite', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edite('5')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:17:59 --> mysqli_sql_exception: Table 'lmr.entrydetail' doesn't exist in C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\newlmr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\new xampp\htdocs\newlmr\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 C:\xampp\new xampp\htdocs\newlmr\system\Model.php(871): CodeIgniter\Database\BaseBuilder->countAll()
+#5 C:\xampp\new xampp\htdocs\newlmr\app\Controllers\Admin.php(43): CodeIgniter\Model->__call('countAll', Array)
+#6 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(919): App\Controllers\Admin->index()
+#7 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\new xampp\htdocs\newlmr\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\new xampp\htdocs\newlmr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:17:59 --> Table 'lmr.entrydetail' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `entrydetail`', null, false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->countAll()
+ 3 APPPATH\Controllers\Admin.php(43): CodeIgniter\Model->__call('countAll', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 17:02:29 --> Cannot redeclare App\Controllers\Admin::entrytable()
+in APPPATH\Controllers\Admin.php on line 260.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

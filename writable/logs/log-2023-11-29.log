@@ -1,0 +1,33 @@
+CRITICAL - 2023-11-29 11:25:19 --> Undefined array key "select name from user where id=user"
+in APPPATH\Views\inpection\inspectiontable.php on line 18.
+ 1 APPPATH\Views\inpection\inspectiontable.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "select name from user where id=user"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiontable.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiontable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiontable', [], true)
+ 5 APPPATH\Controllers\Admin.php(591): view('inpection/inspectiontable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpection()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:29:58 --> Undefined array key "user_id"
+in APPPATH\Views\inpection\inspectiontable.php on line 24.
+ 1 APPPATH\Views\inpection\inspectiontable.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiontable.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiontable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiontable', [], true)
+ 5 APPPATH\Controllers\Admin.php(591): view('inpection/inspectiontable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpection()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:31:01 --> Undefined array key "user_id"
+in APPPATH\Views\inpection\inspectiontable.php on line 24.
+ 1 APPPATH\Views\inpection\inspectiontable.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiontable.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\lmv1\\app\\Views\\inpection\\inspectiontable.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inpection/inspectiontable', [], true)
+ 5 APPPATH\Controllers\Admin.php(591): view('inpection/inspectiontable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inpection()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

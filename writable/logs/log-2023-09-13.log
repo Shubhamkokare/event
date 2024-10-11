@@ -1,0 +1,1047 @@
+ERROR - 2023-09-13 06:21:52 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:21:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:23:09 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:23:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:23:51 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:23:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:23:59 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:23:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:24:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:24:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:25:37 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:25:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:26:07 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:26:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:26:41 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:26:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:26:42 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:26:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:26:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:26:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:26:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:26:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:26:44 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:26:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:27:19 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:27:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:27:20 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:27:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:27:20 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:27:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:27:20 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:27:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:28:16 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:28:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:28:25 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:28:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:28:54 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:28:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:29:59 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:29:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:30:01 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:30:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:30:56 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:30:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:30:59 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:30:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:45:33 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'shubham59', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webcms' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:45:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webcms'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:50:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:50:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:50:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:50:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:50:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:50:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:54:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:54:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:54:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:54:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 06:54:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'webcms', 3306, '', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#3 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-13 06:54:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 3 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 07:07:40 --> Array to string conversion
+in APPPATH\Controllers\Log.php on line 26.
+ 1 APPPATH\Controllers\Log.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\new xampp\\htdocs\\webcms\\app\\Controllers\\Log.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 07:08:31 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\new xampp\htdocs\webcms\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\new xampp\htdocs\webcms\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\new xampp\htdocs\webcms\app\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+#6 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\new xampp\htdocs\webcms\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\new xampp\htdocs\webcms\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-13 07:08:31 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `login` (`user_name`, `user_email`, `user_password`) VALUES (:user_name:, :user_email:, :user_password:)', [...], false)
+ 2 APPPATH\Controllers\Log.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Log->insertdata()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

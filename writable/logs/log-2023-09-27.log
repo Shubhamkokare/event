@@ -1,0 +1,137 @@
+CRITICAL - 2023-09-27 06:21:06 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(34): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 06:57:15 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(34): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 06:57:29 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(34): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 07:52:43 --> Undefined array key "image_name"
+in APPPATH\Views\auth\table.php on line 76.
+ 1 APPPATH\Views\auth\table.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_name"', 'C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/table', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('auth/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 07:57:14 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\auth\table.php on line 78.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/table', [], true)
+ 3 APPPATH\Controllers\Home.php(44): view('auth/table', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->table()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 08:30:46 --> Undefined variable $item
+in APPPATH\Views\auth\table.php on line 76.
+ 1 APPPATH\Views\auth\table.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/table', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('auth/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 08:32:05 --> Undefined variable $item
+in APPPATH\Views\auth\table.php on line 76.
+ 1 APPPATH\Views\auth\table.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/table', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('auth/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 08:32:06 --> Undefined variable $item
+in APPPATH\Views\auth\table.php on line 76.
+ 1 APPPATH\Views\auth\table.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/table', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('auth/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 08:32:24 --> Undefined variable $item
+in APPPATH\Views\auth\table.php on line 76.
+ 1 APPPATH\Views\auth\table.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/table', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('auth/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 09:16:00 --> Could not move file "php7D10.tmp" to "./images/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php7D10.tmp', './images/', '')
+ 2 APPPATH\Controllers\Home.php(27): CodeIgniter\HTTP\Files\UploadedFile->move('./images/', 'shu.png.')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 09:16:46 --> Could not move file "php30A1.tmp" to "./images/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php30A1.tmp', './images/', '')
+ 2 APPPATH\Controllers\Home.php(27): CodeIgniter\HTTP\Files\UploadedFile->move('./images/', 'shu.png.')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 09:20:15 --> Undefined variable $newName
+in APPPATH\Views\auth\table.php on line 76.
+ 1 APPPATH\Views\auth\table.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/table', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('auth/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 09:20:39 --> Undefined variable $newName
+in APPPATH\Views\auth\table.php on line 76.
+ 1 APPPATH\Views\auth\table.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\patil\\app\\Views\\auth\\table.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/table', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('auth/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->table()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 09:25:08 --> Could not move file "phpDBD7.tmp" to "./images/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpDBD7.tmp', './images/', '')
+ 2 APPPATH\Controllers\Home.php(27): CodeIgniter\HTTP\Files\UploadedFile->move('./images/', 'C:\\xampp\\new xampp\\tmp\\phpDBD7.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

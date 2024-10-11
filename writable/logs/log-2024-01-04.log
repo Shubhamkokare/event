@@ -1,0 +1,167 @@
+CRITICAL - 2024-01-04 07:04:41 --> Undefined variable $itam
+in APPPATH\Views\vehicles_list\factory_parking_list.php on line 18.
+ 1 APPPATH\Views\vehicles_list\factory_parking_list.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itam', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\factory_parking_list.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\factory_parking_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vehicles_list/factory_parking_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(1237): view('vehicles_list/factory_parking_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->factory_parking_vehicles()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 07:10:00 --> Undefined array key "vehicle_no"
+in APPPATH\Views\vehicles_list\running_list.php on line 25.
+ 1 APPPATH\Views\vehicles_list\running_list.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vehicle_no"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vehicles_list/running_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(1227): view('vehicles_list/running_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 07:19:25 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 1520.
+ 1 APPPATH\Controllers\Admin.php(1520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 1520)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addsalary()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 07:20:28 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Admin.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-04 07:21:51 --> Attempt to read property "name" on null
+in APPPATH\Views\include\header.php on line 82.
+ 1 APPPATH\Views\include\header.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\include\\header.php', 82)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\include\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('include/header', [], true)
+ 5 APPPATH\Controllers\Admin.php(89): view('include/header', [...])
+ 6 APPPATH\Controllers\Admin.php(1529): App\Controllers\Admin->header('Add Salary')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addsalary()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 07:31:42 --> Undefined array key "loding_point"
+in APPPATH\Views\vehicles_list\running_list.php on line 26.
+ 1 APPPATH\Views\vehicles_list\running_list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "loding_point"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vehicles_list/running_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(1226): view('vehicles_list/running_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 07:32:13 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 1519.
+ 1 APPPATH\Controllers\Admin.php(1519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 1519)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addsalary()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 07:35:02 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 1519.
+ 1 APPPATH\Controllers\Admin.php(1519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 1519)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addsalary()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:12:31 --> Class declarations may not be nested
+in APPPATH\Controllers\BaseController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-04 08:14:58 --> Class declarations may not be nested
+in APPPATH\Controllers\BaseController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-04 08:14:59 --> Class declarations may not be nested
+in APPPATH\Controllers\BaseController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-04 09:07:45 --> Undefined array key "loding_point"
+in APPPATH\Views\vehicles_list\running_list.php on line 26.
+ 1 APPPATH\Views\vehicles_list\running_list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "loding_point"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vehicles_list/running_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(1226): view('vehicles_list/running_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 09:11:35 --> Object of class App\Controllers\Admin could not be converted to string
+in APPPATH\Controllers\Admin.php on line 1226.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 09:14:29 --> Undefined array key "name"
+in APPPATH\Models\transport_entryModel.php on line 30.
+ 1 APPPATH\Models\transport_entryModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Models\\transport_entryModel.php', 30)
+ 2 APPPATH\Controllers\Admin.php(1226): App\Models\transport_entryModel->findData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 09:15:38 --> Undefined array key "name"
+in APPPATH\Models\transport_entryModel.php on line 30.
+ 1 APPPATH\Models\transport_entryModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Models\\transport_entryModel.php', 30)
+ 2 APPPATH\Controllers\Admin.php(1226): App\Models\transport_entryModel->findData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 09:15:40 --> Undefined array key "name"
+in APPPATH\Models\transport_entryModel.php on line 30.
+ 1 APPPATH\Models\transport_entryModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Models\\transport_entryModel.php', 30)
+ 2 APPPATH\Controllers\Admin.php(1226): App\Models\transport_entryModel->findData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 09:17:59 --> Undefined array key "name"
+in APPPATH\Models\transport_entryModel.php on line 30.
+ 1 APPPATH\Models\transport_entryModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Models\\transport_entryModel.php', 30)
+ 2 APPPATH\Controllers\Admin.php(1226): App\Models\transport_entryModel->findData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 09:56:39 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 1520.
+ 1 APPPATH\Controllers\Admin.php(1520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Controllers\\Admin.php', 1520)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->addsalary()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 09:57:35 --> Undefined array key "loding_point"
+in APPPATH\Views\vehicles_list\running_list.php on line 26.
+ 1 APPPATH\Views\vehicles_list\running_list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "loding_point"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehicles_list\\running_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vehicles_list/running_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(1227): view('vehicles_list/running_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->running_vehicles()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 10:13:18 --> Undefined array key "total"
+in APPPATH\Views\vehical_details\salary_list.php on line 19.
+ 1 APPPATH\Views\vehical_details\salary_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehical_details\\salary_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehical_details\\salary_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vehical_details/salary_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(1538): view('vehical_details/salary_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->driver()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 10:15:16 --> Undefined array key "advance"
+in APPPATH\Views\vehical_details\salary_list.php on line 20.
+ 1 APPPATH\Views\vehical_details\salary_list.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "advance"', 'C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehical_details\\salary_list.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\new xampp\\htdocs\\b2b\\app\\Views\\vehical_details\\salary_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vehical_details/salary_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(1538): view('vehical_details/salary_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->driver()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
